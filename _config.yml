@@ -34,6 +34,11 @@ description: A starter kit for building websites using Bloocks
 # fbappid: 310296819307942
 
 
+# This instruction that use http://jch.penibelst.de/ tech is used to delete all HTML comments
+
+compress_html:
+  comments: all
+
 ## Jekyll picture tag https://rbuchberger.github.io/jekyll_picture_tag/
 picture:
   source: "img"
