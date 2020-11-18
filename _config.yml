@@ -1,0 +1,131 @@
+title: Bloocks Jekyll Starter Kit
+description: A starter kit for building websites using Bloocks
+
+# bloocks
+
+
+## Colors And typografy
+
+### Primary colors
+
+### Fonts color
+
+### Globals
+
+
+## Single Block Proprieties
+
+
+# bloocks elements Sizes
+
+
+# Text size
+
+
+# Payment options
+## Payment plugin
+
+# Ecommerce
+## Payment plugin
+
+# Analytics
+
+# analytics: UA-82634666-2
+# fbappid: 310296819307942
+
+
+## Jekyll picture tag https://rbuchberger.github.io/jekyll_picture_tag/
+picture:
+  source: "img"
+  output: "img"
+  suppress_warnings: true
+  ignore_missing_images: true
+  fast_build: true
+  relative_url: false
+
+## jekyll-imagemagick for Jekyll picture tag https://rdoc.info/gems/jekyll-imagemagick
+
+imagemagick:
+  enabled: true
+  widths:
+    - 1024
+    - 512
+    - 0
+  input_directories:
+    - img
+  input_formats:
+    - ".png"
+    - ".tiff"
+  output_formats:
+    jpg: "-quality 93% -define jpeg:dct-method=float -strip -interlace Plane"
+    webp: "-quality 100%"
+
+# From https://github.com/jekyllresources/jekyll-cloudinary
+cloudinary:
+  cloud_name: antoniotrento
+  origin_url: https://res.cloudinary.com/antoniotrento/image/upload/
+  verbose: true
+  presets:
+    default:
+      min_width: 320
+      max_width: 1600
+      fallback_max_width: 800
+      steps: 5
+      sizes: "(min-width: 50rem) 50rem, 90vw"
+      attributes:
+        loading: "lazy"
+    onethird:
+      min_width: 110
+      max_width: 535
+      fallback_max_width: 300
+      steps: 3
+      sizes: "(min-width: 50rem) 17rem, 30vw"
+      attributes:
+        class: "one3rd"
+        loading: "lazy"
+    logo:
+      min_width: 80
+      max_width: 400
+      fallback_max_width: 200
+      steps: 3
+      sizes: '(min-width: 50rem) 13rem, (min-width: 40rem) 25vw, 45vw'
+      figure: never
+      attributes:
+        class: logo
+    figure:
+      min_width: 320
+      max_width: 1600
+      fallback_max_width: 800
+      steps: 5
+      sizes: '(min-width: 50rem) 50rem, 90vw'
+      figure: always
+    grayscale:
+      min_width: 320
+      max_width: 1600
+      fallback_max_width: 800
+      steps: 5
+      sizes: "(min-width: 50rem) 50rem, 90vw"
+      effect: grayscale
+      format: webp
+      quality: 39
+      attributes:
+        loading: "lazy"
+
+# This will require each of these plugins automatically.
+plugins:
+  - jekyll-cloudinary
+  - jekyll_picture_tag
+  - jekyll-target-blank
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.babel.js
+  - LICENSE.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - src
+  - tailwind.config.js
+  - netlify.toml
