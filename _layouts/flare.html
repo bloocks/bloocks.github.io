@@ -1,0 +1,15 @@
+---
+layout: compress
+---
+<!-- Bloocks Theme constructor -->
+
+{% include bloocks/themes/flare/header.html %}
+{% include bloocks/themes/flare/css.html %}
+
+<main class="overflow-x-hidden antialiased"> 
+  {% include bloocks/themes/flare/menu.html %}
+  {{ content }}
+  {% include bloocks/themes/flare/footer.html %}
+</main>
+
+{% include bloocks/themes/flare/scripts.html %}

@@ -1,0 +1,62 @@
+{% assign modal = site.data.modal.modals[page.modal] | default: 'default' %}
+{% assign modalmethod = include.modalmethod | default: 'timed' %}
+{% assign modaltrigger = include.modaltrigger | default: '3000' %}
+{% assign modalfrequency = include.modalfrequency | default: '1' %}
+{% assign modalanimation = include.modalanimation | default: 'bd-focus-css3' %}
+
+{% case modalmethod %}
+  {% when "timed" %}
+    <div class="modal-monitor-backdrop modal">
+        <div id="{{ modalmethod }}{{ modaltrigger }}" class="modal-monitor hero {{ modalanimation }}" data-method="{{ modalmethod }}" data-trigger="{{ modaltrigger }}" data-frequency="{{ modalfrequency }}">
+
+  {% when "scroll" %}
+     <div class="modal-monitor-backdrop modal">
+        <div id="{{ modalmethod }}{{ modaltrigger }}" class="modal-monitor hero {{ modalanimation }}" data-method="{{ modalmethod }}" data-trigger="{{ modaltrigger }}" data-frequency="{{ modalfrequency }}">
+
+  {% when "exit" %}
+     <div class="modal-monitor-backdrop modal">
+        <div id="{{ modalmethod }}" class="modal-monitor hero {{ modalanimation }}" data-method="{{ modalmethod }}" data-trigger="" data-frequency="{{ modalfrequency }}">
+{% endcase %}
+
+{% include bloocks/hero/loopheroblock.html
+  iwanticon=page.modaliwanticon
+  iwanticonup=page.modaliwanticonup
+  icon=page.modalicon
+  iconcolor=page.modaliconcolor
+  iconposition=page.modaliconposition
+  iconsize=page.modaliconsize
+  iconzoom=page.modaliconzoom
+  iconstyle=page.modaliconstyle
+  iconmargin=page.modaliconmargin
+  iconmarginv=page.modaliconmarginv
+  iconalign=page.modaliconalign
+  icontrans=page.modalicontrans
+  iconclass=page.modaliconclass
+  icozindex=page.modalicozindex
+  content=page.modalcontent
+  content2=page.modalcontent2
+  columns=page.modalcolumns
+  class=page.modalclass
+  bgcolor=page.modalbgcolor
+  textcenter=page.modaltextcenter
+  herofoot=page.modalherofootbottomimg
+  footcenter=page.modalfootcenter
+%}
+{%- if page.modalseparator -%}
+{%- include bloocks/helpers/separator.html 
+  sepcolor=page.modalsepcolor
+  separator=page.modalseparator
+-%}
+<div class="hero {{ page.modalsepcolor }}{% if page.modalseparatorsize %} {{ page.modalseparatorsize }}{% else %} is-fullheight-with-navbar{% endif %}">
+  <div class="hero-body"><div class="container has-text-centered">
+
+
+
+
+
+
+  </div></div>
+</div>{%- endif -%}
+</div>
+<button class="modal-close is-large" aria-label="close"></button>
+</div>

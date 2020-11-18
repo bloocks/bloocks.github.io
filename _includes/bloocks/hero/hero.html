@@ -1,0 +1,37 @@
+{% assign herohead     = include.herohead     | default: 'top' %}
+{% assign herofoot     = include.herofoot     | default: 'bottom' %}
+{% assign title        = include.title        | default: 'title' %}
+{% assign htmltitle    = include.htmltitle    | default: 'p' %}
+{% assign titleclass   = include.titleclass   | default: '' %}
+{% assign subtitle     = include.subtitle     | default: 'SubTitle' %}
+{% assign subclass     = include.subclass     | default: '' %}
+{% assign herosize     = include.herosize     | default: '' %}
+{% assign bgcolor      = include.bgcolor      | default: 'is-primary' %}
+
+<section class="hero {{ bgcolor }} {% if include.bold %}is-bold{% endif %} {{ herosize }} {% if include.bgcolor=='bd-rainbow' %}bd-is-love{% endif %}">
+  {% if include.herohead %}
+  <div class="hero-head pt-2">
+    <div class="container {% if include.headcenter %}has-text-centered{% endif %}">
+      {% if include.texthead == true %}<p class="{% if include.bgcolor=='bd-rainbow' %}has-text-white{% endif %}">{{ herohead }}</p>{% else %}{{ herohead }}{% endif %}
+    </div>
+  </div>
+  {% endif %}
+  <div class="hero-body">
+    <div class="container {% if include.textcenter %}has-text-centered{% endif %}">
+      <{{ htmltitle }} class="{% if include.deftitleclass %}title is-1{% endif %} {{ titleclass }}">
+        {{ title }}
+      </{{ htmltitle }}>
+      <p class="{% if include.defsubclass %}subtitle is-3{% endif %} {{ subclass }}">
+        {{ subtitle }}
+      </p>
+    </div>
+  </div>
+  {% if include.herofoot %}
+  <div class="hero-foot pb-2">
+    <div class="container {% if include.footcenter %}has-text-centered{% endif %}">
+      {% if include.textfoot == true %}<p class="{% if include.bgcolor=='bd-rainbow' %}has-text-white{% endif %}">{{ herofoot }}</p>{% else %}{{ herofoot }}{% endif %} 
+    </div>
+  </div>
+  {% endif %}  
+</section>
+

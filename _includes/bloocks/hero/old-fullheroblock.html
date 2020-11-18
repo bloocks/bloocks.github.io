@@ -1,0 +1,82 @@
+{% assign columns     = include.columns       | default: '1' %}
+{% assign herohead     = include.herohead     | default: 'top' %}
+{% assign herofoot     = include.herofoot     | default: 'bottom' %}
+{% assign title        = include.title        | default: 'title' %}
+{% assign htmltitle    = include.htmltitle    | default: 'p' %}
+{% assign titleclass   = include.titleclass   | default: '' %}
+{% assign subtitle     = include.subtitle     | default: 'SubTitle' %}
+{% assign subclass     = include.subclass     | default: '' %}
+{% assign herosize     = include.herosize     | default: '' %}
+{% assign bgcolor      = include.bgcolor      | default: 'is-primary' %}
+
+{% if include.separator %}
+{% include bloocks/helpers/separator.html 
+  sepcolor=include.bgcolor
+  separator=include.separator
+%}
+{% endif %}
+<section class="hero {{ bgcolor }} {% if include.bold %}is-bold{% endif %} {{ herosize }} {% if include.bgcolor=='bd-rainbow' %}bd-is-love{% endif %}">
+  
+  <div class="hero-head pt-2">
+    <div class="container {% if include.headcenter %}has-text-centered{% endif %}">
+      {% if include.iwanticon=="true" and include.iwanticonup=="true" %}
+      {% include bloocks/helpers/heroicon.html 
+        icon=include.icon 
+        iconcolor=include.iconcolor 
+        iconalign=include.iconalign 
+        iconmargin=include.iconmargin 
+        iconmarginv=include.iconmarginv 
+        iconposition=include.iconposition 
+        iconsize=include.iconsize 
+        iconzoom=include.iconzoom 
+        iconhide=include.iconhide 
+        iconstyle=include.iconstyle 
+        iconcss=include.iconcss 
+        icontrans=include.icontrans
+        %}
+      {% endif %}
+      {% if include.herohead %}<p class="{% if include.bgcolor=='bd-rainbow' %}has-text-white{% endif %}">{{ herohead }}</p>{% else %}{{ herohead }}{% endif %}
+    </div>
+  </div>
+
+  <div class="hero-body">
+    <div class="container {% if include.textcenter %}has-text-centered{% endif %}">
+      <div class="columns is-vcentered">
+        <div class="column {{ colsize }}">
+          <{{ htmltitle }} class="{% if include.deftitleclass %}title is-1{% endif %} {{ titleclass }}">
+            {{ title }}
+          </{{ htmltitle }}>
+          <p class="{% if include.defsubclass %}subtitle is-3 {% endif %}{{ subclass }}">
+            {{ subtitle }}
+          </p>
+        </div>
+        <div  style="overflow:hidden; position:relative;" class="column">
+          {{ secondcol }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-foot pb-2">
+    <div class="container {% if include.footcenter %}has-text-centered{% endif %}">
+      {% if include.iwanticon=="true" and include.iwanticondown=="true" %}
+      {% include bloocks/helpers/heroicon.html 
+        icon=include.icon 
+        iconcolor=include.iconcolor 
+        iconalign=include.iconalign 
+        iconmargin=include.iconmargin 
+        iconmarginv=include.iconmarginv 
+        iconposition=include.iconposition 
+        iconsize=include.iconsize 
+        iconzoom=include.iconzoom 
+        iconhide=include.iconhide 
+        iconstyle=include.iconstyle 
+        iconcss=include.iconcss 
+        %}
+      {% endif %}
+      {% if include.herofoot %}<p class="{% if include.bgcolor=='bd-rainbow' %}has-text-white{% endif %}">{{ herofoot }}</p>{% else %}{{ herofoot }}{% endif %} 
+    </div>
+  </div> 
+</section>
+
+
+

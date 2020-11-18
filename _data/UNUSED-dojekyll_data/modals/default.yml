@@ -1,0 +1,86 @@
+columns:  
+  - id: 1
+    name: col1
+    colclass: auto
+    bloocks: 
+      - bname: col1con1
+        bloock: bloocks/content/cssans.html
+        content: CIAO
+        class: bd-focus-mobile
+        type: include
+
+      - bname: col1con2
+        content: /images/sailboat.png
+        type: cloudinary
+
+      - bname: col1con3
+        content: Content
+        type: html
+
+  - id: 2
+    name: col2
+    colclass: auto
+    bloocks: 
+      - bname: col2con1
+        bloock: bloocks/content/cssans.html
+        content: E ABBRACCI
+        class: bd-focus-mobile
+        type: include
+
+      - bname: col2con2
+        content: grayscale /images/sailboat.png class='bd-focus-mobile'
+        type: cloudinary
+
+      - bname: col2con3
+        content: Content
+        type: html
+
+  - id: 3
+    name: col3
+    colclass: auto
+    bloocks: 
+      - bname: col3con1
+        bloock: bloocks/content/cssans.html
+        content: DA JOJEKYLL
+        class: bd-focus-mobile
+        type: include 
+
+      - bname: col3con2
+        content: grayscale /images/sailboat.png
+        type: cloudinary
+
+      - bname: col3con3
+        content: Content
+        type: html        
+    
+modalhero:  
+  id: 1
+  name: default
+  iwanticon: true
+  iwanticonup: true
+  icon: fa-star
+  iconcolor: is-warning
+  iconposition: top
+  iconsize: 4
+  iconzoom: 7em
+  iconstyle: fas
+  icozindex: 3
+  iconmargin: -2em
+  iconmarginv: 1.5em
+  iconalign: left
+  icontrans: 0.5
+  iconclass: shake-chunk shake-constant
+  columns: 2
+  class: is-fullheight-with-navbar
+  bgcolor: is-dark
+  textcenter: true
+  herofoot: modalbottomimg
+  footcenter: true
+  aligncenter: true
+  sepcolor: is-ocean
+  separator: wave
+  separatordiv: <div class=\hero is-ocean is-medium\><div class=\hero-body\><div class=\container has-text-centered\> <\/div><\/div><\/div>
+  modalmethod : timed
+  modaltrigger : 3000
+  modalfrequency : 1
+  

@@ -1,0 +1,29 @@
+{% assign iconcolor          = site.data.bloockscolor.colors[include.iconcolor] | default: 'is-dark' %}
+{% assign icon               = include.icon             | default: 'fa-star' %}
+{% assign iconposition       = include.iconposition     | default: 'bottom' %}
+{% assign iconalign          = include.iconalign        | default: 'left' %}
+{% assign iconmargin         = include.iconmargin       | default: '1em' %}
+{% assign iconmarginv        = include.iconmarginv      | default: '0px' %}
+{% assign iconsize           = include.iconsize         | default: '4' %}
+{% assign iconzoom           = include.iconzoom         | default: '2em' %}
+{% assign iconhide           = include.iconhide         | default: 'is-hidden-mobile' %}
+{% assign iconstyle          = include.iconstyle        | default: 'fas' %}
+{% assign icontrans          = include.icontrans        | default: '0.6' %}
+{% assign iconcss            = include.iconcss %}
+{% assign iconclass          = include.iconclass %}
+{% assign icozindex          = include.icozindex | default: '0' %}
+
+<div class="{{ iconhide }} mt-3 pt-3 {{ iconclass }}" style="{% if include.iconcss %}{{ iconcss }}{% endif %} font-size: {{ iconzoom }}; color: rgba({{ iconcolor.rgb }}, {{ icontrans }}); z-index:{{ icozindex }}; position: absolute;
+    {% case iconposition %}
+        {% when 'top' %}
+            top: {{ iconmarginv }}; 
+        {% when 'bottom' %}
+            bottom: {{ iconmarginv }}; 
+    {% endcase %}
+    {% case iconalign %}
+        {% when 'left' %}
+        left: {{ iconmargin }}; {% when 'right' %}right: {{ iconmargin }};
+    {% endcase %}
+    ">
+    <i class="{{ iconstyle }} {{ icon }} fa-{{ iconsize }}x {% if include.fixedwith %}fa-fw{% endif %}"></i>
+</div>

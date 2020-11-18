@@ -12,9 +12,16 @@
     "cross-spawn": "7.0.3",
     "cssnano": "4.1.10",
     "gulp": "4.0.2",
-    "gulp-postcss": "8.0.0",
+    "gulp-postcss": "^9.0.0",
     "postcss-import": "12.0.1",
-    "tailwindcss": "1.9.6"
+    "tailwindcss": "1.9.6",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^7.1.2",
+    "rucksack-css": "^1.0.2",
+    "gulp-cli": "^2.3.0",
+    "postcss-load-config": "^3.0.0",
+    "postcss-uncss": "^0.17.0",
+    "uncss": "^0.17.3"
   },
   "scripts": {
     "build:production": "cross-env NODE_ENV=production gulp",

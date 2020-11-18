@@ -18,6 +18,11 @@ on first install:  npm install -g node-gyp
 
 -
 
+## Blog guides
+
+- markdown iphone https://gordonansell.com/how-i-use-jekyll-on-both-macos-and-ios/
+- https://indefiniteloop.com/blog/code/jekyll-jenkins-blogging-on-the-go.html
+
 
 # Jekyll Starter Tailwind
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)

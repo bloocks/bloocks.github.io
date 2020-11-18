@@ -1,0 +1,20 @@
+{%- assign object      = include.object -%}
+{% assign content      = include.content                       %}
+{% assign html         = include.html        | default: 'p'    %}
+{% assign htmlelement  = include.htmlelement | default: 'div' %}
+{% assign class        = include.class                         %}
+{% assign style        = include.style                         %}
+{% assign defclass     = include.defclass  %}
+{% assign id           = include.id                            %}
+{% assign proprieties  = include.proprieties                   %}
+{% assign title  = include.title                               %}
+{% assign subtitle  = include.subtitle                               %}
+{% assign alt    = include.alt                                 %}
+{% assign bgcolor    = include.bgcolor                         %}
+{% assign image    = include.image                         %}
+{% assign avatar    = include.avatar                         %}
+
+{% if include.id %}id="{{ id }}" {% endif %}
+{% if include.style %}style="{{ style }}" {% endif %}
+{% if include.class or include.defclass %}class="{{ defclass }}{% if include.class %} {{ class }}{% endif %}"{% endif %}
+{% if include.proprieties %} {{ proprieties }}{% endif %}

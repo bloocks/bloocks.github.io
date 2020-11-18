@@ -111,6 +111,14 @@ cloudinary:
       attributes:
         loading: "lazy"
 
+# jekyll_admin:
+#   hidden_links:
+#     - posts
+#     - pages
+#     - staticfiles
+#     - datafiles
+#     - configuration
+
 # This will require each of these plugins automatically.
 plugins:
   - jekyll-cloudinary
@@ -129,3 +137,6 @@ exclude:
   - src
   - tailwind.config.js
   - netlify.toml
+  - postcss.config.json
+  - postcss.config.js
+  - build.js
