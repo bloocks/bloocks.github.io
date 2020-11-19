@@ -7,13 +7,17 @@
 
 
 
+ static serverless performant platform to test if your branding idea is correct without build an eventual, costly backend, bloocks can work on free hostint platform, blockchain p2p networks,  and 
 
 - Avatar
     - https://getavataaars.com/
+- css
+    - https://csslayout.io/patterns
 - svg
     - http://knutsynstad.com/fauxcode/
     - https://products.ls.graphics/paaatterns/
     - https://www.scribbbles.design/
+    - https://loading.io/pattern
 - Transition
     - https://nucleoapp.com/tool/icon-transition
 - Logo

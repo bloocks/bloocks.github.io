@@ -2,6 +2,9 @@
 
 - cypress.io cypress run --record --key 8151b23a-8558-4275-8d15-acb2faae3510 
 - https://github.com/jekyll/jekyll-admin/issues/243
+- blog AMP
+- temi creare temi per store, fake comments, fake notifiche, integrzione json (per affiliazioni), integrazione thishirtify (o simili), snipchart, aree documenti, portfolio e sfide (challenges)
+- implementare le estensioni blog.bloocks.net, store.bloocks.net, challenges.bloocks.net, portfolio.cloocks.net, bloocks.dev (per il framework bloocks)
 
 # Buil process
 
