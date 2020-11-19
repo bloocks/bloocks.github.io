@@ -7,7 +7,7 @@
 
 
 
- static serverless performant platform to test if your branding idea is correct without build an eventual, costly backend, bloocks can work on free hostint platform, blockchain p2p networks,  and 
+Static serverless performant platform to test if your branding idea is correct without build an eventual, costly backend, bloocks can work on free hostint platform, blockchain p2p networks, and 
 
 - Avatar
     - https://getavataaars.com/
