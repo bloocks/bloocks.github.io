@@ -28,7 +28,7 @@ group :jekyll_plugins do
 #  gem 'jekyll-gzip'
   gem 'jekyll_picture_tag'
   gem 'jekyll-target-blank'
-  gem 'jekyll-admin'
+#  gem 'jekyll-admin'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -31,6 +31,13 @@ on first install:  npm install -g node-gyp
 - markdown iphone https://gordonansell.com/how-i-use-jekyll-on-both-macos-and-ios/
 - https://indefiniteloop.com/blog/code/jekyll-jenkins-blogging-on-the-go.html
 
+#### AMP, tailwind css purgecss
+
+- https://cristianpb.github.io/blog/bulma-amp
+- https://github.com/mhanberg/jekyll-purgecss
+- https://blog.frankdejonge.nl/setting-up-docs-with-tailwind-css-and-github-pages/
+- https://laptrinhx.com/jekyll-starter-styled-with-tailwind-css-3277181270/
+
 
 # Jekyll Starter Tailwind
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
