@@ -129,6 +129,7 @@ plugins:
   - jekyll-cloudinary
   - jekyll_picture_tag
   - jekyll-target-blank
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile

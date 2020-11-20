@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Fucking inline css -->
-    {%- capture css -%}{% asset css/file-name.css !integrity !crossorigin @inline %}{%- endcapture -%}
+    {%- capture css -%}{% asset assets/css/style.css !integrity !crossorigin @inline %}{%- endcapture -%}
       {{ css | remove: '<style rel="stylesheet" type="text/css">' | remove: '</style>' }}
 
     <!-- END Fucking inline css -->
