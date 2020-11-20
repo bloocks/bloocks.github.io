@@ -1,0 +1,15 @@
+---
+layout: compress
+---
+<!-- Bloocks Theme constructor -->
+
+{% include bloocks/themes/landmark/header.html %}
+{% include bloocks/themes/landmark/css.html %}
+
+<main class="overflow-x-hidden antialiased"> 
+  {% include bloocks/themes/landmark/menu.html %}
+  {{ content }}
+
+</main>
+{% include bloocks/themes/landmark/footer.html %}
+{% include bloocks/themes/landmark/scripts.html %}

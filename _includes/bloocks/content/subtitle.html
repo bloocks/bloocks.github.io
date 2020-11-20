@@ -1,0 +1,9 @@
+{% include bloocks/helpers/htmlfields.html %}
+
+<{{ html }} {% if include.id %}id="{{ id }}" {% endif %}{% if include.style %}style="{{ style }}" {% endif %}class="{% if defclass contains "true" %}subtitle is-3 {% endif %}{{ class }}"{% if include.proprieties %} {{ proprieties }}{% endif %}>
+    {{ content }}
+</{{ html }}>
+
+
+
+

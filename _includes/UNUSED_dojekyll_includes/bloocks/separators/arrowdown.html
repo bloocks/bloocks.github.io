@@ -1,0 +1,12 @@
+{% assign color     = include.color     | default: '2a3f54' %}
+{% assign seccolor     = include.seccolor     | default: '273a4c' %}
+{% assign rgb     = include.rgb     | default: '(0, 209, 178)' %}
+
+<div class="sep-row">
+  <div>
+    <svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep4" viewBox="0 0 1600 200" style="display: block;" data-height="200">
+<polygon class="" style="fill: {{ rgb }};" points="886,86 800,172 714,86 -4,86 -4,204 1604,204 1604,86 "></polygon> 
+<polygon class="" style="opacity: 1;fill: #{{ seccolor }};" points="800,172 886,86 900,86 800,186 700,86 714,86 "></polygon> 
+<polygon class="" style="opacity: 1;fill: #{{ color }};" points="800,162 876,86 888,86 800,174 712,86 724,86 "></polygon></svg>
+  </div>
+</div>

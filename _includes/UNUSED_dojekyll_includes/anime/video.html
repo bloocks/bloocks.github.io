@@ -1,0 +1,291 @@
+<section class="hero is-medium intro">
+  <div class="hero-body">
+    <div class="container">
+      <div class="intro-columns">
+        <div class="intro-column is-content">
+          <div class="intro-content">
+            <h1 class="title intro-title">
+              <strong>Bulma</strong> is a free, open source CSS framework based on <strong>Flexbox</strong> and used by more than <strong>200,000</strong> developers.
+            </h1>
+
+            <!--<div id="ghbtns" class="intro-ghbtns">
+              <iframe src="https://ghbtns.com/github-btn.html?user=jgthms&repo=bulma&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+              <a href="https://www.npmjs.com/package/bulma" target="_blank" rel="nofollow">
+                <img src="https://img.shields.io/npm/dm/bulma.svg">
+              </a>
+            </div>-->
+
+            {% assign npmInstall = 'npm install bulma' %}
+
+            <pre id="npm" class="intro-npm"><code>{{ npmInstall }}</code><code id="npmCopy" class="intro-npm-copy" data-clipboard-text="{{ npmInstall }}">copy</code></pre>
+
+
+            <nav class="intro-buttons">
+              <a class="button is-primary is-large" >
+                <span>
+                  <strong>Firts</strong>
+                  <small>v{{ site.data.meta.version }}</small>
+                </span>
+              </a>
+              <a class="button is-light is-large" href="{{ site.url }}{{ site.data.meta.documentation }}">
+                <span>
+                  <span>View</span>
+                  <strong>docs</strong>
+                </span>
+              </a>
+            </nav>
+            
+            {% if page.forms[0] %}{% include form.html form="1" %}{% endif %}
+          </div>
+
+
+          {% include bloocks/share-buttons.html %}
+
+        </div>
+
+        <div class="intro-column intro-video">
+          
+          <nav class="intro-buttons">
+            <a class="button is-purple is-large modalup" >
+              <span>
+                <strong>BasicLightBox from template</strong>
+                
+              </span>
+            </a>
+            
+            </nav>
+
+<!--
+{%- capture titlemodal -%}
+{%- include bloocks/content/cssans.html 
+  content='JoJekyll'
+  class='bd-focus-mobile'
+-%}
+{%- include bloocks/content/subtitle.html 
+  content='A badass Jekyll Theme with <span class="shake-slow shake-constant has-text-primary">SUPERPOWERS!</span>'
+  html='p'
+  class='is-family-secondary bd-focus-css3'
+-%}
+{%- endcapture -%}
+{% capture modalimg %}
+{% cloudinary grayscale /images/sheep.webp alt="sheep!" %}
+{% include bloocks/content/subtitle.html 
+  content='A crazy subtitle'
+  html='p'
+%}
+{% endcapture %}
+-->
+{% include bloocks/hero/modalhero.html
+  iwanticon='true'
+  iwanticonup='true'
+  icon='fa-grimace'
+  iconcolor='is-light'
+  iconposition='top'
+  iconsize='8'
+  iconzoom='7em'
+  iconstyle='far'
+  iconmargin='-2em'
+  iconmarginv='0.2em'
+  iconalign='left'
+  icontrans='0.1'
+  icozindex='0'
+  iconclass='shake shake-constant'
+  iconhide='is-size-4-mobile'
+  content=titlemodal
+  content2=modalimg
+  columns=2  
+  bgcolor='is-dark'
+  modalclass='modalup'
+  bold=true
+  textcenter=true
+  closebtncolor='has-text-light'
+  aligncenter=true
+
+%}
+
+
+
+          {% cloudinary /images/eggs.jpg alt="eggs!" %}
+<!--
+  TESTING basiclightbox.electerious.com e VEX MODALS https://github.com/HubSpot/vex
+-->
+
+<nav class="intro-buttons">
+  <a class="button is-primary is-large first" >
+    <span>
+      <strong>With close button</strong>
+    </span>
+  </a>
+  <a class="button is-light is-large" href="{{ site.url }}{{ site.data.meta.documentation }}">
+    <span>
+      <span>View</span>
+      <strong>docs</strong>
+    </span>
+  </a>
+</nav>
+
+<nav class="intro-buttons">
+  <a class="button is-primary is-large classNames" >
+    <span>
+      <strong>BasicLightBox</strong>
+      
+    </span>
+  </a>
+  <a class="button is-light is-large bloocks" >
+    <span>
+      <strong>Test Bloocks</strong>
+      
+    </span>
+  </a>
+</nav>
+
+<script>
+document.querySelector("a.first").onclick = () => {
+const instance = basicLightbox.create(`
+  <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="columns is-vcentered">
+          <div class="column is-half">
+            <div class=" cssans is-size-3 is-size-4-touch cssans--center">
+              <div class="cssans cssans--center"><div class="cssans__accessible">CSSans Pro</div>    <div class="cssans__word"><b class="cssans:C"></b><b class="cssans:S"></b><b class="cssans:S"></b><b class="cssans:a"></b><b class="cssans:n"></b><b class="cssans:s"></b></div>    <div class="cssans__word"><b class="cssans:P"></b><b class="cssans:r"></b><b class="cssans:o"></b></div></div>
+            </div>
+            <nav class="intro-buttons">
+              <a class="button is-primary is-large" >
+                <span>
+                  <strong>BasicLightBox</strong>
+                  
+                </span>
+              </a>
+              <a class="button is-light is-large" >
+                <span>
+                  <strong>Test Bloocks</strong>
+                  
+                </span>
+              </a>
+            </nav>
+          </div>
+          <div style="overflow:hidden; position:relative;" class="column">
+            <img src="/images/dog.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="hero-foot pb-2">
+      <div class="container has-text-centered">
+        <span class="icon arrowScrollDown"><svg class="svg-inline--fa fa-chevron-down fa-w-14 fa-3x" aria-hidden="true" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <i class="fas fa-3x fa-chevron-down"></i> --></span>
+      </div>
+    </div>
+    <a style="position:absolute;top:1.8rem;right:1.8rem;width:2em;height:2em;" class="close has-text-light"><i class="far fa-3x fa-times-circle"></i></a>
+`, {
+    className: "hero is-purple"
+  });
+
+instance.element().querySelector('a.close').onclick = instance.close;
+
+instance.show();
+};
+document.querySelector("a.classNames").onclick = () => {
+const html = ` 
+<div class="hero-body">
+  <div class="container has-text-centered">
+    <div class=" cssans is-size-2 is-size-4-touch cssans--center bd-focus-mobile">
+      <div class="cssans__accessible">DoJekyll</div><div class="cssans__word"><b class="cssans:D"></b><b class="cssans:o"></b><b class="cssans:J"></b><b class="cssans:e"></b><b class="cssans:k"></b><b class="cssans:y"></b><b class="cssans:l"></b><b class="cssans:l"></b></div>
+    </div>
+    <p class="subtitle is-3 is-family-secondary bd-focus-css3">
+      A badass Jekyll theme with <span class="shake-slow shake-constant has-text-primary">SUPERPOWERS!</span>
+    </p>
+  </div>
+</div>
+`;
+
+basicLightbox
+  .create(html, {
+    className: "hero is-purple"
+  })
+  .show();
+};
+document.querySelector("a.bloocks").onclick = () => {
+const html = ` 
+<!--
+{% capture image1 %}
+{% cloudinary /images/eggs.jpg alt="eggs!" %}
+{% endcapture %}-->
+{% include bloocks/hero/hero2col.html
+title='<div class="cssans__accessible">DoJekyll</div><div class="cssans__word"><b class="cssans:D"></b><b class="cssans:o"></b><b class="cssans:J"></b><b class="cssans:e"></b><b class="cssans:k"></b><b class="cssans:y"></b><b class="cssans:l"></b><b class="cssans:l"></b></div>' 
+htmltitle='div'
+titleclass='cssans is-size-3 is-size-4-touch cssans--center bd-focus-mobile'
+subtitle='A badass Jekyll theme with <span class="shake-slow shake-constant has-text-purple">SUPERPOWERS!</span>'
+subclass='is-family-secondary bd-focus-css3'
+defsubclass=true
+secondcol=image1
+herosize='is-fullheight-with-navbar' 
+bgcolor='is-primary' 
+textcenter=true 
+herofoot='<span class="icon arrowScrollDown"><i class="fas fa-3x fa-chevron-down"></i></span>'
+footcenter=true
+%}
+`;
+
+basicLightbox
+  .create(html, {
+    className: "hero is-light"
+  })
+  .show();
+};
+</script>
+
+
+
+
+
+<template class="form-template"><!--
+{% capture form1 %}
+{% if page.forms[0] %}{% include form.html form="1" %}{% endif %}
+{% endcapture %}-->
+{% include bloocks/hero/hero2col.html
+  title='<div class="cssans__accessible">DoJekyll</div><div class="cssans__word"><b class="cssans:D"></b><b class="cssans:o"></b><b class="cssans:J"></b><b class="cssans:e"></b><b class="cssans:k"></b><b class="cssans:y"></b><b class="cssans:l"></b><b class="cssans:l"></b></div>' 
+  htmltitle='div'
+  titleclass='cssans is-size-3 is-size-4-touch cssans--center bd-focus-mobile'
+  subtitle='A badass Jekyll theme with <span class="shake-slow shake-constant has-text-purple">SUPERPOWERS!</span>'
+  subclass='is-family-secondary bd-focus-css3'
+  defsubclass=true
+  secondcol=form1
+  herosize='is-fullheight-with-navbar' 
+  bgcolor='is-primary' 
+  textcenter=true 
+  herofoot='<span class="icon arrowScrollDown"><i class="fas fa-3x fa-chevron-down"></i></span>'
+  footcenter=true
+%}
+</template>
+
+<nav class="intro-buttons">
+  <a class="button is-purple is-large form-template" >
+    <span>
+      <strong>BasicLightBox from template</strong>
+      
+    </span>
+  </a>
+
+</nav>
+<script>
+  document.querySelector("a.form-template").onclick = () => {
+    basicLightbox.create(
+  document.querySelector('template.form-template'), {
+      className: "hero is-primary"
+    }
+)
+    .show();
+};
+</script>
+
+<!--
+TESTING VEX MODALS https://github.com/HubSpot/vex
+-->          
+        </div>
+      </div>
+
+      {% include index/focus.html %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,15 @@
+{% include bloocks/helpers/htmlfields.html %}
+{% assign cssanstitle  = include.cssanstitle  | default: 'h3'  %}
+{% assign sentence = content | split: " " %}
+
+<{{ htmlelement }} {% if include.id %}id="{{ id }}" {% endif %}{% if include.style %}style="{{ style }}" {% endif %}class="cssans {% if defclass contains 'true' %}is-size-3 is-size-4-touch {% endif %}{{ class }}"{% if include.proprieties %} {{ proprieties }}{% endif %}>
+    <{{ htmlelement }} class="cssans__accessible"><{{ cssanstitle }}>{{ content }}</{{ cssanstitle }}></{{ htmlelement }}>
+    {% for words in sentence %}
+        {% assign word = words | split: '' %}
+        <{{ htmlelement }} class="cssans__word">
+            {% for letter in word %}
+                <b class="cssans:{{ letter }}"></b>
+            {% endfor %}
+        </{{ htmlelement }}>
+    {% endfor %}
+</{{ htmlelement }}>

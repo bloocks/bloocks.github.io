@@ -1,0 +1,8 @@
+{% include bloocks/helpers/htmlfields.html %}
+
+<div class="notification {{ include.bgcolor }} {{ include.class }}">
+  {% if include.button %}
+  <button class="delete"></button>
+  {% endif %}
+  {{ include.content }}
+</div>

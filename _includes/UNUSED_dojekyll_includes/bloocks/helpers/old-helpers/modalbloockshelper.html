@@ -1,0 +1,28 @@
+{% assign modalmethod = page.modalmethod | default: 'timed' %}
+{% assign modaltrigger = page.modaltrigger | default: '3000' %}
+{% assign modalfrequency = page.modalfrequency | default: '1' %}
+{% assign modalanimation = page.modalanimation | default: 'bd-focus-css3' %}
+{% assign color = site.data.bloockscolor.colors[include.sepcolor] %}
+{% assign id = include.id %}
+{% assign name = include.name %}
+{% assign modal = include.column %}
+
+    {% capture {{ name }} %}
+    {% for column in modal.bloocks %}
+      {% assign bloock = column.bloock %}
+      {% assign content = column.content %}
+      {% assign type = column.type %}
+      {% assign bname = column.bname %}    
+        {% case type %}
+          {% when "include" %} 
+            {% include {{ bloock }} content=content %}
+            <p>Test</p>
+          {% when "html" %}
+            {{ content }}
+            <p>Test</p>
+          {% when "cloudinary" %}
+            {% cloudinary {{ content }} %}
+            <p>Test</p>
+        {% endcase %}       
+    {% endfor %}
+    {%- endcapture -%}
