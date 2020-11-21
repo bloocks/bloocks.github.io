@@ -11,6 +11,8 @@ const SITE_ROOT = "./_site";
 const POST_BUILD_STYLESHEET = `${SITE_ROOT}/assets/css/`;
 const PRE_BUILD_STYLESHEET = "./src/style.css";
 const TAILWIND_CONFIG = "./tailwind.config.js";
+const AMP_BUILD_STYLESHEET = "./_includes/";
+const AMP_BASE_BUILD_STYLESHEET = `${SITE_ROOT}/assets/css/style.css`;
 
 // Fix for Windows compatibility
 const jekyll = process.platform === "win32" ? "jekyll.bat" : "jekyll";
@@ -41,6 +43,20 @@ task("processStyles", () => {
       ])
     )
     .pipe(dest(POST_BUILD_STYLESHEET));
+});
+
+task("processAmpStyles", () => {
+  browserSync.notify("Compiling styles...");
+
+  return src(AMP_BASE_BUILD_STYLESHEET)
+    .pipe(
+      postcss([
+        atimport(),
+        tailwindcss(TAILWIND_CONFIG),
+        ...(isDevelopmentBuild ? [] : [autoprefixer(), cssnano()]),
+      ])
+    )
+    .pipe(dest(AMP_BUILD_STYLESHEET));
 });
 
 task("startServer", () => {
