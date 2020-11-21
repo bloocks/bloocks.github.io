@@ -72,12 +72,38 @@ on first install:  npm install -g node-gyp
 - https://laptrinhx.com/jekyll-starter-styled-with-tailwind-css-3277181270/
 - https://www.telerik.com/blogs/top-15-tailwind-css-plugins-resources
 
+# AMP
+
+- https://github.com/prototypearea/awesome-amp
+
+## Tools
+
+- https://amp.dev/boilerplate/
+- https://app.amptemplates.io/
+  - https://www.amptemplates.io/
+- https://github.com/tea3/hexo-generator-amp
+- https://github.com/ampproject/amp-toolbox
+
+
 ## AMP Coockie consent
 
 - https://stackoverflow.com/questions/61929226/how-to-construct-amp-cookie-consent-with-the-help-of-amp-story-consent
 - https://amp.dev/documentation/components/amp-consent/
+  - https://amp.dev/documentation/examples/?category=user-consent&format=websites#filter
+  - **https://playground.amp.dev/?url=https%3A%2F%2Fpreview.amp.dev%2Fdocumentation%2Fexamples%2Fuser-consent%2Fclient_side_user_consent_flow&format=websites&_gl=1*16hwmw3*_ga*YW1wLVpkZTNzZHowRlhhZk1mQ0M0OWlrRVE.**
   - https://playground.amp.dev/?url=https%3A%2F%2Fpreview.amp.dev%2Fdocumentation%2Fexamples%2Fuser-consent%2Fstory_user_consent&format=websites
+
 - https://www.iubenda.com/it/help/22140-cookie-solution-amp-wordpress#siti-che-non-usano-wordpress
+  - https://amp.dev/documentation/components/amp-consent/#basic-blocking-behaviors
+  - https://blog-static.leevia.com/amp.html
+
+- https://community.cookiepro.com/s/article/UUID-94cf9b13-1998-d989-a5e0-d01a73a2e0a7
+
+## AMP Blog post tutorials
+
+- https://searchengineland.com/get-started-accelerated-mobile-pages-amp-240688
+- https://neilpatel.com/blog/the-definitive-guide-to-accelerated-mobile-pages-amp/
+- http://ampexamples.com/
 
 # Jekyll Starter Tailwind
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
