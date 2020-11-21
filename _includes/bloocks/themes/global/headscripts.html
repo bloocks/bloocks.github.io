@@ -1,3 +1,8 @@
+<!--<script type="application/ld+json">
+  {% include metadata.json %}
+</script>
+
+<script defer src="{{ site.data.icons.fontawesome5 }}"></script>
 {%- if page.fontawesome4 -%}
 <link rel="stylesheet" href="{{ site.data.icons.fontawesome4 }}">
 {% endif %}
@@ -7,6 +12,8 @@
 {%- if page.mdi -%}
 <link rel="stylesheet" href="{{ site.data.icons.mdi }}">
 {% endif %}
+Shared social media -->
+
 <!--
 defer css loading by https://www.andreaverlicchi.eu/critical-css-jekyll-sass-github-pages/ 
 and secon option from https://www.drewbolles.com/blog/2015/04/23/inline-critical-css-using-jekyll-and-gulp
@@ -42,7 +49,7 @@ onload="this.media='all'; this.onload=null;"
 
 <!-- Shared social media -->
 
-{% seo %}
+
 
 <!--
 {% if page.share_title %}
@@ -96,4 +103,3 @@ onload="this.media='all'; this.onload=null;"
 <meta name="msapplication-config" content="{{ site.url }}/favicons/browserconfig.xml?v=201701041855">
 <meta name="theme-color" content="#00d1b2">-->
 
-<script defer src="{{ site.data.icons.fontawesome5 }}"></script>

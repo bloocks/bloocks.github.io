@@ -1,0 +1,31 @@
+---
+layout: blog
+title: Bloocks Blog
+description: Notizie e informazioni dal mondo della fotografia dia fomofoto
+permalink: /blog/
+img: assets/images/social/home.jpg
+image: assets/images/social/home.jpg
+custom-head:
+type: 'article'
+---
+
+
+      <h1>Blog di Fomofoto</h1>
+
+  {% for post in site.posts %}
+
+    <article>
+  {% if post.image %}
+      <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+      <amp-img src="{{ post.image }}" srcset="{{ post.image }} 750w,{{ post.image }} 1280w" width="750" height="427" layout="responsive" alt="No sleep &#39;til Brooklyn" noloading="">
+      <div></div>  </amp-img> </a>
+  {% endif %}
+
+      <div>
+        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>        
+        <p>{{ post.description | remove: '<p>' | remove: '</p>' }}</p>
+        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Leggi tutto</a>
+      </div>
+      </article>
+  {% endfor %}        
+

@@ -1,28 +1,6 @@
 ---
 layout: default
 ---
-<style>
-  @media(max-width:1520px) {
-      .left-svg {
-          display: none;
-      }
-  }
-
-  /* small css for the mobile nav close */
-  #nav-mobile-btn.close span:first-child {
-      transform: rotate(45deg);
-      top: 4px;
-      position: relative;
-      background: #a0aec0;
-  }
-
-  #nav-mobile-btn.close span:nth-child(2) {
-      transform: rotate(-45deg);
-      margin-top: 0px;
-      background: #a0aec0;
-  }
-</style>
-
 <!-- BEGIN HERO SECTION -->
     <div class="relative items-center justify-center w-full overflow-x-hidden lg:pt-40 lg:pb-40 xl:pt-40 xl:pb-64">
       <div
@@ -130,18 +108,3 @@ layout: default
   </div>
   <!-- HERO SECTION END -->
 </div>
-
-    <!-- a little JS for the mobile nav button -->
-    <script>
-        if (document.getElementById('nav-mobile-btn')) {
-            document.getElementById('nav-mobile-btn').addEventListener('click', function () {
-                if (this.classList.contains('close')) {
-                    document.getElementById('nav').classList.add('hidden');
-                    this.classList.remove('close');
-                } else {
-                    document.getElementById('nav').classList.remove('hidden');
-                    this.classList.add('close');
-                }
-            });
-        }
-    </script>

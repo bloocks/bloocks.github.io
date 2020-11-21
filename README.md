@@ -62,6 +62,7 @@ on first install:  npm install -g node-gyp
 #### Plugins
 
 - **https://www.telerik.com/blogs/top-15-tailwind-css-plugins-resources**
+- https://www.tailwindtoolbox.com/plugins
 
 ### Tutorials
 
@@ -71,7 +72,12 @@ on first install:  npm install -g node-gyp
 - https://laptrinhx.com/jekyll-starter-styled-with-tailwind-css-3277181270/
 - https://www.telerik.com/blogs/top-15-tailwind-css-plugins-resources
 
+## AMP Coockie consent
 
+- https://stackoverflow.com/questions/61929226/how-to-construct-amp-cookie-consent-with-the-help-of-amp-story-consent
+- https://amp.dev/documentation/components/amp-consent/
+  - https://playground.amp.dev/?url=https%3A%2F%2Fpreview.amp.dev%2Fdocumentation%2Fexamples%2Fuser-consent%2Fstory_user_consent&format=websites
+- https://www.iubenda.com/it/help/22140-cookie-solution-amp-wordpress#siti-che-non-usano-wordpress
 
 # Jekyll Starter Tailwind
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)

@@ -6,10 +6,13 @@ layout: compress
 {% include bloocks/themes/landmark/header.html %}
 {% include bloocks/themes/landmark/css.html %}
 
-<main class="overflow-x-hidden antialiased"> 
+<main> 
   {% include bloocks/themes/landmark/menu.html %}
   {{ content }}
-
 </main>
 {% include bloocks/themes/landmark/footer.html %} 
 {% include bloocks/themes/landmark/scripts.html %}
+<!-- ****************************** DO NOT DELETE LINES BELOW **************************************** 
+    This include MUST BE at least of /_layout/bloocks_theme_name.html to close the HTML tags below -->
+  </body>
+</html>
