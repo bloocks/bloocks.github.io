@@ -30,8 +30,22 @@ on first install:  npm install -g node-gyp
 
 - markdown iphone https://gordonansell.com/how-i-use-jekyll-on-both-macos-and-ios/
 - https://indefiniteloop.com/blog/code/jekyll-jenkins-blogging-on-the-go.html
+- https://css-tricks.com/gulp-for-beginners/
+  - https://gist.github.com/panoply/c9d29d91cccbd1d8d07ea01bb46937ad
+  - https://browsersync.io/docs/gulp
+  - https://github.com/mizchi/next-amp-tailwind-purgecss
 
 #### AMP, tailwind css purgecss
+
+- https://github.com/zerodevx/amp-build
+
+
+- https://github.com/aniftyco/awesome-tailwindcss
+- https://devdojo.com/tailwindcss/templates
+- https://mertjf.github.io/tailblocks/
+- https://stitches.hyperyolo.com/
+
+- https://transform.tools/css-to-tailwind
 
 - https://cristianpb.github.io/blog/bulma-amp
 - https://github.com/mhanberg/jekyll-purgecss

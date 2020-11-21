@@ -34,6 +34,9 @@ https://stackoverflow.com/questions/55250421/jekyll-liquid-passing-an-array-into
 
 #### AMP, tailwind css purgecss
 
+- usato https://github.com/oddstronaut/jekyll-starter-tailwind
+- https://github.com/mhanberg/jekyll-tailwind-starter
+
 - https://cristianpb.github.io/blog/bulma-amp
 - https://github.com/mhanberg/jekyll-purgecss
 - https://blog.frankdejonge.nl/setting-up-docs-with-tailwind-css-and-github-pages/
