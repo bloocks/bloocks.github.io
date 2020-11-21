@@ -35,22 +35,42 @@ on first install:  npm install -g node-gyp
   - https://browsersync.io/docs/gulp
   - https://github.com/mizchi/next-amp-tailwind-purgecss
 
-#### AMP, tailwind css purgecss
+## AMP, tailwind css purgecss
 
 - https://github.com/zerodevx/amp-build
 
+### Templateing resources
 
 - https://github.com/aniftyco/awesome-tailwindcss
 - https://devdojo.com/tailwindcss/templates
 - https://mertjf.github.io/tailblocks/
 - https://stitches.hyperyolo.com/
+- https://tailwindcomponents.com/
 
+#### Templating Single problems
+
+- https://dev.to/fayaz/making-a-navigation-drawer-sliding-sidebar-with-tailwindcss-blueprint-581l
+- https://codepen.io/simondepelchin/pen/ypwEBN
+
+### Tools
+
+- https://nerdcave.com/tailwind-cheat-sheet
+- https://umeshmk.github.io/Tailwindcss-cheatsheet/
 - https://transform.tools/css-to-tailwind
+- 
+
+#### Plugins
+
+- **https://www.telerik.com/blogs/top-15-tailwind-css-plugins-resources**
+
+### Tutorials
 
 - https://cristianpb.github.io/blog/bulma-amp
 - https://github.com/mhanberg/jekyll-purgecss
 - https://blog.frankdejonge.nl/setting-up-docs-with-tailwind-css-and-github-pages/
 - https://laptrinhx.com/jekyll-starter-styled-with-tailwind-css-3277181270/
+- https://www.telerik.com/blogs/top-15-tailwind-css-plugins-resources
+
 
 
 # Jekyll Starter Tailwind

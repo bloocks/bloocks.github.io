@@ -4,12 +4,29 @@ layout: compress
 <!-- Bloocks Theme constructor -->
 
 {% include bloocks/themes/amp/header.html %}
-{% include bloocks/themes/amp/css.html %}
+{% include bloocks/themes/amp/menu.html %}
 
-<main> 
-  {% include bloocks/themes/amp/menu.html %}
+<div style="display: flex;">
+  <!-- Main -->
+  <main style="
+      /* Take the remaining width */
+      flex: 1;
+
+      /* Make it scrollable */
+      overflow: auto;
+  ">
   {{ content }}
-  {% include bloocks/themes/amp/footer.html %}
-</main>
+  </main>
+  <!-- Sidebar -->
+  <aside style="width: 30%;">
+    ...
+  </aside>
+</div>
+
+
+
+
+{% include bloocks/themes/amp/footer.html %}
+
 
 {% include bloocks/themes/amp/scripts.html %}

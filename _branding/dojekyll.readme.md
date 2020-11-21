@@ -187,8 +187,12 @@ https://talk.jekyllrb.com/t/loop-through-data-file-with-uniq-array-filter/425/3
 
 ### Images CDN tecnology
 
+- https://statically.io
+  - Sample to use image https://cdn.statically.io/img/fomofoto.github.io/assets/images/prezzels.jpg
+  - Sample html/css/js asset from github that will be minified by adding .min https://cdn.statically.io/gh/:user"jojekyll"/:repo"fleektest"/:tag"main"/:file"wp-includes/js/jquery/jquery.min.js" ------>  https://cdn.statically.io/gh/jojekyll/fleektest/main/wp-includes/js/jquery/jquery.min.js
 - https://images.weserv.nl
 - https://webkul.github.io/vivid/
+- http://www.heropatterns.com/
 
 ### pen source images and illustrations
 
@@ -204,6 +208,7 @@ https://talk.jekyllrb.com/t/loop-through-data-file-with-uniq-array-filter/425/3
 - https://www.scribbbles.design
 - https://icons8.com/animated-icons
 - https://itg.digital/
+- http://www.heropatterns.com/
 
 ### NPM Packages
 
