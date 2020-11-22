@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Testing Boocks! with the AMP Blog
-description: Bloocks! is made to be flexibile and using leatest technology to render websites contents like AMP
-img-title: Bloocks! logo
-img: /img/post/2018-10-12-collaborare-con-un-fotografo-per-migliorare-il-tuo-business/collaborare-con-un-fotografo-per-migliorare-il-tuo-business.jpg
-image: /img/post/2018-10-12-collaborare-con-un-fotografo-per-migliorare-il-tuo-business/collaborare-con-un-fotografo-per-migliorare-il-tuo-business.jpg
+title: Using Boocks! with the Google AMP technology in Blog webpages
+description: Bloocks! is made to be flexibile and using leatest technology to render websites contents like Google AMP
+img-title: Bloocks! and AMP together
+img: /img/post/2020-11-22-introducing-bloocks-amp-blog/2020-11-22-introducing-bloocks-amp-blog.jpg
+image: /img/post/2020-11-22-introducing-bloocks-amp-blog/2020-11-22-introducing-bloocks-amp-blog.jpg
 type: 'BlogPosting'
 tags: fotografia business servizi aziende
 # sidebar: 
