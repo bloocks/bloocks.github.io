@@ -1,6 +1,7 @@
 # TODO
 
 - Trovare il modo per rimuovere i tag head e html che vanno iniettati con browsersync quando viene messo in produzione
+- continuare a creare il menu
 - Utilizzare le forme {{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }} {{ '/js/amp-script.js' | absolute_url }} per linkare i contenuti dato che tailwind css ha problemi nel rendering degli stili se usati tag liquid a metà classe es. bg-{{ site.color }}-600 [Jekyll reference](https://jekyllrb.com/docs/liquid/filters/) [Tailwind reference](https://tailwindcss.com/docs/optimizing-for-production) 
 - Ricreare tutti i bloocks per tailwind css
 - implementare le estensioni blog.bloocks.net, store.bloocks.net, challenges.bloocks.net, portfolio.cloocks.net, bloocks.dev (per il framework bloocks)
