@@ -1,5 +1,7 @@
 Copyright (c) 2020 Antonio Trento
 
+https://creativecommons.org/licenses/by-nc-nd/2.0/
+
 The content owner grants the buyer a non-exclusive, perpetual, personal use
 license to view, download, display, and copy the content, subject to the
 following restrictions:
