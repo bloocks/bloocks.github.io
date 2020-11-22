@@ -117,6 +117,8 @@ cloudinary:
       attributes:
         loading: "lazy"
 
+# Jekyll Admin create problems during the script npm run start, brosersync can't reload the site and give me an error and exit from the serving loop made in gulpfile.babel.js
+
 # jekyll_admin:
 #   hidden_links:
 #     - posts
@@ -127,10 +129,11 @@ cloudinary:
 
 # This will require each of these plugins automatically.
 plugins:
-  - jekyll-cloudinary
-  - jekyll_picture_tag
-  - jekyll-target-blank
-  - jekyll-seo-tag
+  - jekyll-cloudinary # https://github.com/nhoizey/jekyll-cloudinary
+  - jekyll_picture_tag # https://rbuchberger.github.io/jekyll_picture_tag/
+  - jekyll-target-blank # https://github.com/keithmifsud/jekyll-target-blank
+  - jekyll-seo-tag # https://github.com/jekyll/jekyll-seo-tag
+  - jekyll-menus # https://github.com/dojekyll/jekyll-menus
 
 exclude:
   - Gemfile

@@ -28,6 +28,7 @@ group :jekyll_plugins do
 #  gem 'jekyll-gzip'
   gem 'jekyll_picture_tag'
   gem 'jekyll-target-blank'
+  gem 'jekyll-menus'
 #  gem 'jekyll-admin'
 end
 

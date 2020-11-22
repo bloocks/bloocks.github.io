@@ -1,5 +1,19 @@
 ---
 layout: post
+title: Testing Boocks! with the AMP Blog
+description: Bloocks! is made to be flexibile and using leatest technology to render websites contents like AMP
+img-title: Bloocks! logo
+img: /img/post/2018-10-12-collaborare-con-un-fotografo-per-migliorare-il-tuo-business/collaborare-con-un-fotografo-per-migliorare-il-tuo-business.jpg
+image: /img/post/2018-10-12-collaborare-con-un-fotografo-per-migliorare-il-tuo-business/collaborare-con-un-fotografo-per-migliorare-il-tuo-business.jpg
+type: 'BlogPosting'
+tags: fotografia business servizi aziende
+# sidebar: 
+#    type: 'test'
+#    title: Prova
+#    image: myself-cap-300x200.jpg
+#    description: prova descrizione
+#    btn-text: Prova bottone
+#    btn-link: /urban
 ---
 
 The new version **[Bulma 0.8.0](https://github.com/jgthms/bulma/releases/tag/0.8.0)** is out! 😃 It comes with several bug fixes and a lot of nice new features:
