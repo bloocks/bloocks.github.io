@@ -1,7 +1,7 @@
 {
   "name": "bloocks",
   "version": "6.0.0",
-  "description": "A framework for Jekyll to build quickly marketing websites and ecommerce",
+  "description": "A static websites generator to build quickly marketing websites and ecommerce",
   "main": "gulpfile.babel.js",
   "devDependencies": {
     "autoprefixer": "9.8.6",
