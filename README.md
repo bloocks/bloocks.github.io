@@ -12,7 +12,7 @@
 - Browsersync probelms ribuovere body html tags in production e renderlo funzionale per jekyll-admin https://github.com/jekyll/jekyll-admin/issues/243
 - [X] [...] Ho creato la task 'gulp processAmpStyles' che dopo aver creato il sito in produzione, crea una versione nella cartella _includes, ma va integrato bene blog AMP problema nel processo di gulp, il problema consiste nel fatto che prima devo generare il sito jekyll e poi processare i css in modo corretto solo che amp richiede css in linea che non possono essere importati da _includes/ prima del build
 - temi creare temi per store, fake comments, fake notifiche, integrzione json (per affiliazioni), integrazione thishirtify (o simili), snipchart, aree documenti, portfolio e sfide (challenges)
-
+- [ ] script che copia il contenuto di _sites in docs/ perchè è li che vanno serviti i file
 
 # Buil process
 
