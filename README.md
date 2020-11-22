@@ -83,7 +83,10 @@ on first install:  npm install -g node-gyp
   - https://www.amptemplates.io/
 - https://github.com/tea3/hexo-generator-amp
 - https://github.com/ampproject/amp-toolbox
+- https://github.com/rkazakov/ampify
+  - https://github.com/search?q=AMP+HTML
 
+- https://github.com/GetPublii/Publii
 
 ## AMP Coockie consent
 
