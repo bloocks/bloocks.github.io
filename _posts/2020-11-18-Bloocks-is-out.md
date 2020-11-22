@@ -15,7 +15,6 @@ tags: websites business marketing developing
 #    btn-text: Prova bottone
 #    btn-link: /urban
 ---
-
 Bloocks! a static websites generator under development! Hi, I'm Antonio and I'm creating a static website generator, it's called Bloocks!, which combines the latest frontend development technologies, to maximize development speed and get a static website with fantastic performance in line with market needs inherent to performance and scalability.
 
 Bloocks! will allow you to develop your block frontend, using a templating engine with ready-to-use pre-built graphic blocks, in this way, Bloocks! will give you the opportunity to quickly prototype and test business ideas and marketing campaigns directly on the web already having an efficient and functional basic tool, without spending a cent on frontend development and hosting, and then, at will, develop a backend appropriate to your business idea, but knowing already, thanks to the launch of marketing campaigns, if your business idea will be successful.
