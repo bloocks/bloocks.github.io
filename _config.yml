@@ -1,6 +1,6 @@
 title: Bloocks Jekyll Starter Kit
 description: A starter kit for building websites using Bloocks
-
+name: <span class="ml-3 text-xl text-gray-800">Bl<span class="text-pink-500">o</span><span class="text-indigo-600">o</span>cks<span class="text-pink-500">!</span></span>
 language: en-US
 # bloocks
 
