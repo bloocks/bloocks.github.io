@@ -48,6 +48,7 @@ https://stackoverflow.com/questions/55250421/jekyll-liquid-passing-an-array-into
 
 ### Jekyll plugin and scripts
 
+- https://awesomeopensource.com/projects/jekyll-plugin
 - https://gist.github.com/magicznyleszek/9803727
 - https://gist.github.com/JJediny/a466eed62cee30ad45e2
 - https://jekyllrb.com/docs/datafiles/
@@ -55,6 +56,7 @@ https://stackoverflow.com/questions/55250421/jekyll-liquid-passing-an-array-into
 - https://gist.github.com/JJediny/a466eed62cee30ad45e2#variable-assignment
 - https://shopify.github.io/liquid/filters/slice/
 - https://shopify.github.io/liquid/filters/split/
+- https://planetjekyll.github.io/plugins/top
 <!-- https://github.com/Shopify/liquid/issues/531 
   https://stackoverflow.com/questions/55250421/jekyll-liquid-passing-an-array-into-an-include-and-looping/55753369
   https://jekyllrb.com/docs/includes/
