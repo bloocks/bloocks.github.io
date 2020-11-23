@@ -112,6 +112,32 @@ on first install:  npm install -g node-gyp
 
 - https://community.cookiepro.com/s/article/UUID-94cf9b13-1998-d989-a5e0-d01a73a2e0a7
 
+
+## Implementing workservices in AMP for PWA
+
+
+https://github.com/matthodan/jekyll-asset-pipeline
+
+
+https://devhints.io/jekyll
+
+
+https://jekyllrb.com/docs/configuration/options/
+
+
+https://stackoverflow.com/questions/54009824/how-to-build-jekyll-project-production-with-windows-command-line/54011686
+
+     https://jekyllrb.com/docs/configuration/environments/
+
+
+https://github.com/JasonYao/JasonYao.github.io
+
+
+https://www.speedywp.it/combinare-la-potenza-di-una-pwa-su-pagine-amp/
+
+      https://www.speedywp.it/service-worker.js
+
+
 ## AMP Blog post tutorials
 
 - https://searchengineland.com/get-started-accelerated-mobile-pages-amp-240688

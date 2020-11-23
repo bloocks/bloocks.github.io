@@ -45,19 +45,6 @@ task("processStyles", () => {
     .pipe(dest(POST_BUILD_STYLESHEET));
 });
 
-task("processAmpStyles", () => {
-  browserSync.notify("Compiling styles...");
-
-  return src(AMP_BASE_BUILD_STYLESHEET)
-    .pipe(
-      postcss([
-        atimport(),
-        tailwindcss(TAILWIND_CONFIG),
-        ...(isDevelopmentBuild ? [] : [autoprefixer(), cssnano()]),
-      ])
-    )
-    .pipe(dest(AMP_BUILD_STYLESHEET));
-});
 
 task("startServer", () => {
   browserSync.init({
@@ -70,6 +57,32 @@ task("startServer", () => {
         extensions: ["html"],
       },
     },
+  });
+
+  task("prodJekyll", () => {
+    browserSync.notify("Building Jekyll site...");
+  
+    const args = ["exec", jekyll, "build"];
+  
+    if (isDevelopmentBuild) {
+      args.push("--incremental");
+    }
+  
+    return spawn("bundle", args, { stdio: "inherit" });
+  });
+  
+  task("processAmpStyles", () => {
+    browserSync.notify("Compiling styles...");
+  
+    return src(AMP_BASE_BUILD_STYLESHEET)
+      .pipe(
+        postcss([
+          atimport(),
+          tailwindcss(TAILWIND_CONFIG),
+          ...(isDevelopmentBuild ? [] : [autoprefixer(), cssnano()]),
+        ])
+      )
+      .pipe(dest(AMP_BUILD_STYLESHEET));
   });
 
   watch(
