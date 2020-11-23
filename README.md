@@ -1,9 +1,9 @@
 # TODO
 
-- [ ] Trovare il modo per rimuovere i tag head e html che vanno iniettati con browsersync quando viene messo in produzione **forse con https://www.npmjs.com/package/replace-in-file**
+- [ ] [...] Trovare il modo per rimuovere i tag head e html che vanno iniettati con browsersync quando viene messo in produzione **forse con https://www.npmjs.com/package/replace-in-file**
   - https://stackoverflow.com/questions/14177087/replace-a-string-in-a-file-with-nodejs?newreg=59bf23bc92f846ba80e0b7e340f4c89d
     - https://www.foxinfotech.in/2019/05/linux-unix-remove-html-tags-from-file-html-to-text.html
-- [ ] continuare a creare il menu
+- [ ] [...] continuare a creare il menu
 - [ ] Utilizzare le forme {{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }} {{ '/js/amp-script.js' | absolute_url }} per linkare i contenuti dato che tailwind css ha problemi nel rendering degli stili se usati tag liquid a metà classe es. bg-{{ site.color }}-600 [Jekyll reference](https://jekyllrb.com/docs/liquid/filters/) [Tailwind reference](https://tailwindcss.com/docs/optimizing-for-production) 
 - [ ] Ricreare tutti i bloocks per tailwind css
 - [ ] implementare le estensioni blog.bloocks.net, store.bloocks.net, challenges.bloocks.net, portfolio.cloocks.net, bloocks.dev (per il framework bloocks)
