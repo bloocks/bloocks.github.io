@@ -90,6 +90,7 @@ on first install:  npm install -g node-gyp
 
 - https://github.com/prototypearea/awesome-amp
 - https://github.com/JasonYao/JasonYao.github.io
+- https://github.com/samanyougarg/hanuman
 
 ## Tools
 
@@ -159,3 +160,12 @@ https://www.speedywp.it/combinare-la-potenza-di-una-pwa-su-pagine-amp/
 - https://www.npmjs.com/package/del-cli
 - https://preview.npmjs.com/package/find-remove
 
+# Jekyll
+
+## Posts resources lists
+
+- https://awesomeopensource.com/projects/jekyll-plugin
+
+## Plugins
+
+- https://github.com/jeffreytse/jekyll-spaceship

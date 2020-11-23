@@ -49,6 +49,7 @@ https://stackoverflow.com/questions/55250421/jekyll-liquid-passing-an-array-into
 ### Jekyll plugin and scripts
 
 - https://awesomeopensource.com/projects/jekyll-plugin
+- https://github.com/jeffreytse/jekyll-spaceship
 - https://gist.github.com/magicznyleszek/9803727
 - https://gist.github.com/JJediny/a466eed62cee30ad45e2
 - https://jekyllrb.com/docs/datafiles/
