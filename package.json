@@ -24,8 +24,10 @@
     "uncss": "^0.17.3",
     "chalk": "^4.1.0",
     "minimatch": "^3.0.4",
+    "replace": "^1.2.0",
     "yargs": "^16.1.1",
-    "replace-in-file": "^6.1.0"
+    "replace-in-file": "^6.1.0",
+    "glob": "^7.1.6"
   },
   "scripts": {
     "build:production": "cross-env NODE_ENV=production gulp",
