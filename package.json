@@ -21,10 +21,15 @@
     "gulp-cli": "^2.3.0",
     "postcss-load-config": "^3.0.0",
     "postcss-uncss": "^0.17.0",
-    "uncss": "^0.17.3"
+    "uncss": "^0.17.3",
+    "chalk": "^4.1.0",
+    "minimatch": "^3.0.4",
+    "yargs": "^16.1.1",
+    "replace-in-file": "^6.1.0"
   },
   "scripts": {
     "build:production": "cross-env NODE_ENV=production gulp",
+    "build:bloocksprod": "cross-env NODE_ENV=production gulp && replace-in-file ' </body> </html> ' ' ' '_site/**/*.html'",
     "build:dev": "cross-env NODE_ENV=development gulp",
     "build": "npm run build:production",
     "dev": "cross-env NODE_ENV=development gulp serve",
