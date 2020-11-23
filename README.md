@@ -12,6 +12,7 @@
 - [ ] Implementare forms
 - [ ] Ecommerce cpn https://github.com/snipcart/stackbit-theme-planty/blob/master/config.yml
 - [ ] **Implementare Alpine.js**
+  - https://www.alpinetoolbox.com/
 - [ ] cypress.io cypress run --record --key 8151b23a-8558-4275-8d15-acb2faae3510 
 - [ ] Browsersync probelms ribuovere body html tags in production e renderlo funzionale per jekyll-admin https://github.com/jekyll/jekyll-admin/issues/243
 - [ ] [X] [...] Ho creato la task 'gulp processAmpStyles' che dopo aver creato il sito in produzione, crea una versione nella cartella _includes, ma va integrato bene blog AMP problema nel processo di gulp, il problema consiste nel fatto che prima devo generare il sito jekyll e poi processare i css in modo corretto solo che amp richiede css in linea che non possono essere importati da _includes/ prima del build
@@ -60,6 +61,7 @@ on first install:  npm install -g node-gyp
 - https://tailwindcomponents.com/
 - https://github.com/thedevdojo/tails
   - https://devdojo.com/tailwindcss/components
+- https://tailwindcss.com/
 
 #### Templating Single problems
 
@@ -91,6 +93,7 @@ on first install:  npm install -g node-gyp
 - https://github.com/prototypearea/awesome-amp
 - https://github.com/JasonYao/JasonYao.github.io
 - https://github.com/samanyougarg/hanuman
+- https://github.com/zerodevx/amp-build
 
 ## Tools
 
@@ -101,8 +104,8 @@ on first install:  npm install -g node-gyp
 - https://github.com/ampproject/amp-toolbox
 - https://github.com/rkazakov/ampify
   - https://github.com/search?q=AMP+HTML
+- https://developers.google.com/web/tools/workbox
 
-- https://github.com/GetPublii/Publii
 
 ## AMP Coockie consent
 
@@ -174,3 +177,22 @@ https://www.speedywp.it/combinare-la-potenza-di-una-pwa-su-pagine-amp/
 ## Themes and scripts
 
 - https://github.com/UriShX/Jekyll-portfolio
+- https://github.com/JasonYao/JasonYao.github.io
+- https://github.com/daattali/beautiful-jekyll
+
+### Jekyll scraping tools
+
+- https://github.com/nishantwrp/gsoc-organizations-site
+  - https://github.com/nishantwrp/gsoc-organizations-scraper
+
+### Other tools
+
+- https://staticman.net/
+- https://utteranc.es/
+
+
+# Other tools
+
+### Static website generator
+
+- - https://github.com/GetPublii/Publii

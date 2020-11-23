@@ -701,6 +701,7 @@ https://github.com/Shopify/liquid/issues/531
     - https://docs.typetura.com/legal
 - https://github.com/orbeon/orbeon-forms/blob/master/LICENSE.txt
 - https://github.com/Formstone/Formstone/blob/master/license.txt
+- https://github.com/daattali/beautiful-jekyll
 
 #### Open Licence for personal use
 
@@ -712,7 +713,7 @@ https://www.quora.com/What-is-the-best-free-for-non-commercial-use-license-to-us
 - https://spdx.org/licenses/
  - https://spdx.org/licenses/CC-BY-NC-ND-4.0.html
 - https://creativecommons.org/licenses/by-nc-sa/4.0/
-
+- https://github.com/daattali/beautiful-jekyll
 
 #### Open licence for white label
 
