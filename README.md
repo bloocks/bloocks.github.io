@@ -169,3 +169,4 @@ https://www.speedywp.it/combinare-la-potenza-di-una-pwa-su-pagine-amp/
 ## Plugins
 
 - https://github.com/jeffreytse/jekyll-spaceship
+- https://github.com/tkareine/jekyll-minibundle
