@@ -1,6 +1,6 @@
 # TODO
 
-- [ ] [...] Trovare il modo per rimuovere i tag head e html che vanno iniettati con browsersync quando viene messo in produzione **forse con https://www.npmjs.com/package/replace-in-file**
+- [ ] [...] Trovare il modo per rimuovere i tag head e html che vanno iniettati con browsersync quando viene messo in produzione **forse con https://www.npmjs.com/package/rexreplace oppure https://www.npmjs.com/package/replace-in-file**
   - https://stackoverflow.com/questions/14177087/replace-a-string-in-a-file-with-nodejs?newreg=59bf23bc92f846ba80e0b7e340f4c89d
     - https://www.foxinfotech.in/2019/05/linux-unix-remove-html-tags-from-file-html-to-text.html
 - [ ] [...] continuare a creare il menu
@@ -159,9 +159,11 @@ https://www.speedywp.it/combinare-la-potenza-di-una-pwa-su-pagine-amp/
 
 ### NPM usefull packages
 
+- https://www.npmjs.com/package/rexreplace
 - https://www.npmjs.com/package/replace-in-file
 - https://www.npmjs.com/package/del-cli
 - https://preview.npmjs.com/package/find-remove
+- https://www.npmjs.com/package/imagemin-cli
 
 # Jekyll
 
