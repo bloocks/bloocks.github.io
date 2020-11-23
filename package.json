@@ -31,7 +31,7 @@
   },
   "scripts": {
     "build:production": "cross-env NODE_ENV=production gulp",
-    "build:bloocksprod": "cross-env NODE_ENV=production gulp && replace-in-file ' </body> </html> ' ' ' '_site/**/*.html'",
+    "build:bloocksprod": "npm run build && replace-in-file \" </body> </html> \" \" \" \"_site/**/*.html\"",
     "build:dev": "cross-env NODE_ENV=development gulp",
     "build": "npm run build:production",
     "dev": "cross-env NODE_ENV=development gulp serve",
