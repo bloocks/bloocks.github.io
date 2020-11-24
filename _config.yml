@@ -110,11 +110,13 @@ picture:
   ignore_missing_images: true
   fast_build: true
   relative_url: false
-  # This command below can be uncomment when you have the image files uploaded 
-  # to your online repository to be able to serve your images from statically CDN
-  # (remember to upload the images only in the img folder and subfolders and on first commit the images to the server folder otherwise it will not work)
-  
-  # cdn_url: https://cdn.statically.io/img/bloocks.github.io/img/ 
+  cdn_url: https://cdn.statically.io/img/bloocks.github.io/
+
+# This command below can be uncomment when you have the image files uploaded 
+# to your online repository to be able to serve your images from statically CDN
+# (remember to upload the images only in the img folder and subfolders and on first commit the images to the server folder otherwise it will not work)
+
+# cdn_url: https://cdn.statically.io/img/bloocks.github.io/img/ 
 
 ## Jekyll picture tag presets examples https://rbuchberger.github.io/jekyll_picture_tag/users/presets/examples.html
 
