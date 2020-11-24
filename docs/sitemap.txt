@@ -8,4 +8,5 @@
 /sitemap.txt
 /stiches.html
 
-/2020/11/18/Bloocks-is-out.html
+/2020/11/22/introducing-bloocks-amp-blog.html
+/2020/11/18/bloocks-is-out.html

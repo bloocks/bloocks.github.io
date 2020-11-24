@@ -27,11 +27,12 @@
     "replace": "^1.2.0",
     "yargs": "^16.1.1",
     "replace-in-file": "^6.1.0",
-    "glob": "^7.1.6"
+    "glob": "^7.1.6",
+    "copyfiles": "^2.4.0"
   },
   "scripts": {
     "build:production": "cross-env NODE_ENV=production gulp",
-    "build:bloocksprod": "npm run build && replace-in-file \" </body> </html> \" \" \" \"_site/**/*.html\"",
+    "build:bloocksprod": "npm run build && replace-in-file \" </body> </html> \" \" \" \"_site/**/*.html\" && copyfiles -u 1 \"./_site/**/*\" ./docs && copyfiles -u 3 \"./_site/assets/css/style.css\" \"./_includes/bloocks/themes/amp/\"",
     "build:dev": "cross-env NODE_ENV=development gulp",
     "build": "npm run build:production",
     "dev": "cross-env NODE_ENV=development gulp serve",

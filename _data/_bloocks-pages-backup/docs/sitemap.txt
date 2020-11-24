@@ -1,0 +1,11 @@
+
+/404.html
+/blog/
+/feed.xml
+/flare.html
+/
+/landmark.html
+/sitemap.txt
+/stiches.html
+
+/2020/11/18/Bloocks-is-out.html
