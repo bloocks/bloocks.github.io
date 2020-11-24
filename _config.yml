@@ -3,7 +3,53 @@ environment: development
 title: Bloocks fastest websites generator ever!
 description: Build badass and fastest marketing websites with Bloocks, a static websites generator to build Ecommerce and websites on top of tecnical performaces.
 name: <span class="ml-3 text-xl text-gray-800">Bl<span class="text-pink-500">o</span><span class="text-indigo-600">o</span>cks<span class="text-pink-500">!</span></span>
+
+
+# for Jekyll SEO tag plugin and for using information into the project code structure
+
+author :
+  name : Antonio Trento
+  email : lantoniotrento@gmail.com
+  github : bloocks/bloocks.github.io
+  twitter : bloocks
+  facebook: bloocks
+  linkedin: bloocks
+  instagram: bloocks
+  pinterest: bloocks
+
+locale: en_US
+
 language: en-US
+
+logo: "/img/main-logo.png"
+
+google_site_verification: 1234
+
+webmaster_verifications:
+  google: 1234
+  bing: 1234
+  alexa: 1234
+  yandex: 1234
+  baidu: 1234
+
+social:
+  name: Antonio Trento
+  links:
+    - https://twitter.com/lantoniotrento
+    - https://www.facebook.com/lantoniotrento
+    - https://www.linkedin.com/in/antoniotrento
+    - https://github.com/antoniotrento
+    - https://keybase.io/antoniotrento
+    
+twitter:
+  username: bloocks
+  card: large
+
+facebook:
+ app_id: 12345 #the app id from https://developers.facebook.com/
+ admins: 12345 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+ publisher: 12345 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+ pixel: 12345
 
 # bloocks
 

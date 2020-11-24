@@ -1,9 +1,10 @@
 # TODO
 
-- [X] [...] Trovare il modo per rimuovere i tag head e html che vanno iniettati con browsersync quando viene messo in produzione **forse con https://www.npmjs.com/package/rexreplace oppure https://www.npmjs.com/package/replace-in-file**
+- [X] Trovare il modo per rimuovere i tag head e html che vanno iniettati con browsersync quando viene messo in produzione **forse con https://www.npmjs.com/package/rexreplace oppure https://www.npmjs.com/package/replace-in-file**
   - https://stackoverflow.com/questions/14177087/replace-a-string-in-a-file-with-nodejs?newreg=59bf23bc92f846ba80e0b7e340f4c89d
     - https://www.foxinfotech.in/2019/05/linux-unix-remove-html-tags-from-file-html-to-text.html
-- [ ] nello scrpt npm aggiugere copia file  verso la cartella docs con https://www.npmjs.com/package/copyfiles
+- [X] nello scrpt npm aggiugere copia file  verso la cartella docs con https://www.npmjs.com/package/copyfiles
+- [ ] Nello script npm run build:bloocksprod aggiungere un modo per riuscire a copiare il contenuto CSS in file HTML di style.css in un file _includes/bloocks/themes/amp/css.html
 - [ ] [...] continuare a creare il menu
 - [ ] Utilizzare le forme {{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }} {{ '/js/amp-script.js' | absolute_url }} per linkare i contenuti dato che tailwind css ha problemi nel rendering degli stili se usati tag liquid a metà classe es. bg-{{ site.color }}-600 [Jekyll reference](https://jekyllrb.com/docs/liquid/filters/) [Tailwind reference](https://tailwindcss.com/docs/optimizing-for-production) 
 - [ ] Ricreare tutti i bloocks per tailwind css
@@ -106,6 +107,10 @@ on first install:  npm install -g node-gyp
 - https://github.com/rkazakov/ampify
   - https://github.com/search?q=AMP+HTML
 - https://developers.google.com/web/tools/workbox
+
+## Amp javascript menu
+
+- 
 
 
 ## AMP Coockie consent
