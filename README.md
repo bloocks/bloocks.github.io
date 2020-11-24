@@ -6,6 +6,8 @@
 - [X] nello scrpt npm aggiugere copia file  verso la cartella docs con https://www.npmjs.com/package/copyfiles
 - [ ] Nello script npm run build:bloocksprod aggiungere un modo per riuscire a copiare il contenuto CSS in file HTML di style.css in un file _includes/bloocks/themes/amp/css.html
 - [ ] Script npm per unire, gli stili on page e inserirli nel file style.css minimizzati
+- [ ] npm per src set per generare da tag img img più efficienti come fa jekyl_picture_tag
+- [ ] npm per generare i link assoluti del sito in produzione (per ora genera link cosy href"/indirizzo/link.html")
 - [ ] Nello script npm run build:bloocksprod implementare anche imagemin per minimizzare le immagini https://www.npmjs.com/package/imagemin-cli
 - [ ] Implementare analytics, tag manager sia per amp che per aree non amp
 - [ ] [...] continuare a creare il menu
