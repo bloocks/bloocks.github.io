@@ -128,7 +128,7 @@ media_queries:
 presets:
   default:
     markup: auto
-    link_source: true # wrap images in a link to the original source image.
+    link_source: false # wrap images in a link to the original source image.
     dimension_attributes: true # Page reflow begone!
 
     formats: [webp, original] # Must be an array, and order matters.
@@ -146,14 +146,9 @@ presets:
     fallback_width: 800
     fallback_format: original
 
-    attributes:
-      parent: 'data-downloadable="true"'
-      picture: 'class="awesome" data-volume="11"'
-      img: 'class="some-other-class"'
-      a: 'class="image-link"'
-
   bloocks:
     markup: img
+    link_source: false
     noscript: true
     dimension_attributes: true # Page reflow begone!
 
