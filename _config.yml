@@ -150,8 +150,8 @@ presets:
     attributes:
       parent: 'data-downloadable="true"'
       picture: 'class="awesome" data-volume="11"'
-      img: 'class="some-other-class"'
-      a: 'class="image-link"'
+      img: 'class="some-other-class lazy"'
+      # a: 'class="image-link"'
 
   # This is an example of how you would create a 'multiplier' based srcset;
   # useful when an image will always be the same size on all screens (icons,
