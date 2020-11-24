@@ -110,6 +110,11 @@ picture:
   ignore_missing_images: true
   fast_build: true
   relative_url: false
+  # This command below can be uncomment when you have the image files uploaded 
+  # to your online repository to be able to serve your images from statically CDN
+  # (remember to upload the images only in the img folder and subfolders otherwise it will not work)
+  
+  # cdn_url: https://cdn.statically.io/img/bloocks.github.io/img/ 
 
 ## Jekyll picture tag presets examples https://rbuchberger.github.io/jekyll_picture_tag/users/presets/examples.html
 
@@ -141,6 +146,7 @@ presets:
     fallback_width: 800
     fallback_format: original
 
+    # add html attributes to the src set of images.
     attributes:
       parent: 'data-downloadable="true"'
       picture: 'class="awesome" data-volume="11"'
