@@ -147,7 +147,7 @@ presets:
     fallback_format: original
 
   bloocks:
-    markup: picture
+    markup: img
     link_source: false
     noscript: true
     dimension_attributes: true # Page reflow begone!
