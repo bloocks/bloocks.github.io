@@ -128,7 +128,7 @@ media_queries:
 presets:
   default:
     markup: auto
-    link_source: false # wrap images in a link to the original source image.
+    link_source: true # wrap images in a link to the original source image.
     dimension_attributes: true # Page reflow begone!
 
     formats: [webp, original] # Must be an array, and order matters.
@@ -146,13 +146,36 @@ presets:
     fallback_width: 800
     fallback_format: original
 
-    # add html attributes to the src set of images.
     attributes:
       parent: 'data-downloadable="true"'
       picture: 'class="awesome" data-volume="11"'
-      img: 'class="some-other-class lazy"'
-      # a: 'class="image-link"'
+      img: 'class="some-other-class"'
+      a: 'class="image-link"'
 
+  bloocks:
+    markup: img
+    noscript: true
+    dimension_attributes: true # Page reflow begone!
+
+    formats: [webp, original] # Must be an array, and order matters.
+
+    widths: [200, 400, 800, 1600] # Must be an array.
+    media_widths: # Because a cell phone doesn't want 1600 pixels.
+      mobile: [200, 400, 600] 
+      tablet: [400, 600, 800]
+
+    sizes: 
+      mobile: 100vw
+      tablet: 80vw
+    size: 800px
+
+    fallback_width: 800
+    fallback_format: original
+
+    attributes:
+      img: 'class="lazy"'
+
+  
   # This is an example of how you would create a 'multiplier' based srcset;
   # useful when an image will always be the same size on all screens (icons,
   # graphics, thumbnails, etc), but you'd like to supply higher resolution
@@ -180,11 +203,15 @@ presets:
     markup: direct_url
     fallback_format: webp
     fallback_width: 600
+  
+  svgdirect:
+    markup: direct_url
+    fallback_format: original
 
   # Here's a naked srcset. Doesn't even give you the surrounding quotes.
   srcset:
     markup: naked_srcset
-    formats: [webp] # must be an array, even if it only has one item
+    formats: [webp, original] # must be an array, even if it only has one item
 
 ## END EXAMPLE Jekyll picture tag presets examples https://rbuchberger.github.io/jekyll_picture_tag/users/presets/examples.html
 

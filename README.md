@@ -10,7 +10,7 @@
 - [ ] Implementare analytics, tag manager sia per amp che per aree non amp
 - [ ] [...] continuare a creare il menu
 - [ ] Implementare una logica per utilizzare jekyll picture tag sfruttando https://statically.io
-- [ ] Utilizzare le forme {{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }} {{ '/js/amp-script.js' | absolute_url }} per linkare i contenuti dato che tailwind css ha problemi nel rendering degli stili se usati tag liquid a metà classe es. bg-{{ site.color }}-600 [Jekyll reference](https://jekyllrb.com/docs/liquid/filters/) [Tailwind reference](https://tailwindcss.com/docs/optimizing-for-production) 
+- [ ] Utilizzare le forme {{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }} {{ '/js/amp-script.js' | absolute_url }} per linkare i contenuti dato che tailwind css ha problemi nel rendering degli stili se usati tag liquid a metà classe es. bg-{{ site.color }}-600 [Jekyll reference](https://jekyllrb.com/docs/liquid/filters/) -- https://stackoverflow.com/questions/30011684/can-you-use-jekyll-layout-variables-in-pages -- [Tailwind reference](https://tailwindcss.com/docs/optimizing-for-production) 
 - [ ] Ricreare tutti i bloocks per tailwind css
 - [ ] implementare le estensioni blog.bloocks.net, store.bloocks.net, challenges.bloocks.net, portfolio.cloocks.net, bloocks.dev (per il framework bloocks)
 - [ ] logica bloocks più serrata, fare un area in helpers dove si riesce a importare gli stili tailwind in modo dinamico (font colori )
