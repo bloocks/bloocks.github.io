@@ -180,6 +180,8 @@ presets:
     markup: naked_srcset
     formats: [webp] # must be an array, even if it only has one item
 
+## END EXAMPLE Jekyll picture tag presets examples https://rbuchberger.github.io/jekyll_picture_tag/users/presets/examples.html
+
 ## don't works in leatest version of jekyll jekyll-imagemagick plugin for Jekyll picture tag https://rdoc.info/gems/jekyll-imagemagick
 
 imagemagick:
