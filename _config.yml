@@ -148,8 +148,13 @@ presets:
     fallback_width: 800
     fallback_format: original
 
+    attributes:
+    parent: 'data-downloadable="true"'
+    picture: 'class="awesome" data-volume="11"'
+    img: 'class="some-other-class"'
+
   bloocks:
-    markup: img
+    markup: data_auto
     link_source: false
     noscript: true
     dimension_attributes: true # Page reflow begone!
