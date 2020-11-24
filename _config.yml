@@ -6,6 +6,7 @@ name: <span class="ml-3 text-xl text-gray-800">Bl<span class="text-pink-500">o</
 
 
 # for Jekyll SEO tag plugin and for using information into the project code structure
+# Usage at https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 
 author :
   name : Antonio Trento
@@ -24,11 +25,11 @@ logo: "/img/main-logo.png"
 google_site_verification: 1234
 
 webmaster_verifications:
-  google: 1234
-  bing: 1234
-  alexa: 1234
-  yandex: 1234
-  baidu: 1234
+  # google: 1234
+  # bing: 1234
+  # alexa: 1234
+  # yandex: 1234
+  # baidu: 1234
 
 social:
   name: Antonio Trento
@@ -44,13 +45,22 @@ twitter:
   card: large
 
 facebook:
- app_id: 12345 #the app id from https://developers.facebook.com/
- admins: 12345 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
- publisher: 12345 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
- pixel: 12345
+ # app_id: 12345 #the app id from https://developers.facebook.com/
+ # admins: 12345 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+ # publisher: 12345 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+ # pixel: 12345
 
 
  # END CONFIG for Jekyll SEO tag plugin 
+
+# Analytics
+
+google :
+    # tracking_id : 'UA-126238091-1' #Id google analitics
+    # optimize_id : 'GTM-NF68992' #I'id di google optimize per A/B Testing
+    # optimize_experiment_id: ' ' #I'id di dell'esperimento google optimize per A/B Testing
+    # tagmanager_id: 'GTM-TPFPZHK' #id di google tag manager
+    # ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
 
 
 # bloocks
@@ -80,7 +90,8 @@ facebook:
 # Ecommerce
 ## Payment plugin
 
-# Analytics
+
+
 
 # analytics: UA-82634666-2
 # fbappid: 310296819307942
@@ -100,7 +111,76 @@ picture:
   fast_build: true
   relative_url: false
 
-## jekyll-imagemagick for Jekyll picture tag https://rdoc.info/gems/jekyll-imagemagick
+## Jekyll picture tag presets examples https://rbuchberger.github.io/jekyll_picture_tag/users/presets/examples.html
+
+media_queries:
+  wide_desktop: 'min-width: 1801px'
+  desktop: 'max-width: 1800px'
+  wide_tablet: 'max-width: 1200px'
+  tablet: 'max-width: 900px'
+  mobile: 'max-width: 600px'
+
+presets:
+  default:
+    markup: auto
+    link_source: true # wrap images in a link to the original source image.
+    dimension_attributes: true # Page reflow begone!
+
+    formats: [webp, original] # Must be an array, and order matters.
+
+    widths: [200, 400, 800, 1600] # Must be an array.
+    media_widths: # Because a cell phone doesn't want 1600 pixels.
+      mobile: [200, 400, 600] 
+      tablet: [400, 600, 800]
+
+    sizes: 
+      mobile: 100vw
+      tablet: 80vw
+    size: 800px
+
+    fallback_width: 800
+    fallback_format: original
+
+    attributes:
+      parent: 'data-downloadable="true"'
+      picture: 'class="awesome" data-volume="11"'
+      img: 'class="some-other-class"'
+      a: 'class="image-link"'
+
+  # This is an example of how you would create a 'multiplier' based srcset;
+  # useful when an image will always be the same size on all screens (icons,
+  # graphics, thumbnails, etc), but you'd like to supply higher resolution
+  # images to devices with higher pixel ratios.
+  icon:
+    base_width: 20 # How wide the 1x image should be.
+    pixel_ratios: [1, 1.5, 2]
+    fallback_width: 20
+    attributes:
+      img: 'class="icon"'
+
+  # Here's an example of how you'd configure jekyll-picture-tag to work with
+  # something like lazyload: https://github.com/verlok/lazyload
+  lazy:
+    markup: data_auto
+    formats: [webp, original]
+    widths: [200, 400, 600, 800]
+    noscript: true # add a fallback image inside a <noscript> tag.
+    attributes: 
+      img: class="lazy"
+
+  # This is an example of how you'd get generated image and a URL, and nothing
+  # else.
+  direct:
+    markup: direct_url
+    fallback_format: webp
+    fallback_width: 600
+
+  # Here's a naked srcset. Doesn't even give you the surrounding quotes.
+  srcset:
+    markup: naked_srcset
+    formats: [webp] # must be an array, even if it only has one item
+
+## don't works in leatest version of jekyll jekyll-imagemagick plugin for Jekyll picture tag https://rdoc.info/gems/jekyll-imagemagick
 
 imagemagick:
   enabled: true

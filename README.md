@@ -5,7 +5,11 @@
     - https://www.foxinfotech.in/2019/05/linux-unix-remove-html-tags-from-file-html-to-text.html
 - [X] nello scrpt npm aggiugere copia file  verso la cartella docs con https://www.npmjs.com/package/copyfiles
 - [ ] Nello script npm run build:bloocksprod aggiungere un modo per riuscire a copiare il contenuto CSS in file HTML di style.css in un file _includes/bloocks/themes/amp/css.html
+- [ ] Script npm per unire, gli stili on page e inserirli nel file style.css minimizzati
+- [ ] Nello script npm run build:bloocksprod implementare anche imagemin per minimizzare le immagini https://www.npmjs.com/package/imagemin-cli
+- [ ] Implementare analytics, tag manager sia per amp che per aree non amp
 - [ ] [...] continuare a creare il menu
+- [ ] Implementare una logica per utilizzare jekyll picture tag sfruttando https://statically.io
 - [ ] Utilizzare le forme {{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }} {{ '/js/amp-script.js' | absolute_url }} per linkare i contenuti dato che tailwind css ha problemi nel rendering degli stili se usati tag liquid a metà classe es. bg-{{ site.color }}-600 [Jekyll reference](https://jekyllrb.com/docs/liquid/filters/) [Tailwind reference](https://tailwindcss.com/docs/optimizing-for-production) 
 - [ ] Ricreare tutti i bloocks per tailwind css
 - [ ] implementare le estensioni blog.bloocks.net, store.bloocks.net, challenges.bloocks.net, portfolio.cloocks.net, bloocks.dev (per il framework bloocks)
@@ -203,4 +207,11 @@ https://www.speedywp.it/combinare-la-potenza-di-una-pwa-su-pagine-amp/
 
 ### Static website generator
 
-- - https://github.com/GetPublii/Publii
+- https://github.com/GetPublii/Publii
+
+
+### CDN's Varie
+
+- https://statically.io
+  - Sample to use image https://cdn.statically.io/img/fomofoto.github.io/assets/images/prezzels.jpg
+  - Sample html/css/js asset from github that will be minified by adding .min https://cdn.statically.io/gh/:user"jojekyll"/:repo"fleektest"/:tag"main"/:file"wp-includes/js/jquery/

@@ -4,7 +4,7 @@
     {% include bloocks/themes/global/heading.html %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | absolute_url }}" />
     {% include bloocks/themes/flare/css.html %}
-    {% include bloocks/themes/global/headscripts.html %}
+    {% include bloocks/themes/global/headtags.html %}
   </head>
 
   <body>
@@ -13,3 +13,7 @@
     This include MUST BE at least of /_layout/bloocks_theme_name.html to close the HTML tags below -->
   </body>
 </html>
+
+
+{% include bloocks/themes/global/bodyscripts.html %}
+{% include bloocks/themes/flare/bodyscripts.html %}
