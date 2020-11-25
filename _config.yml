@@ -149,14 +149,13 @@ presets:
     fallback_format: original
 
     attributes:
-    parent: 'data-downloadable="true"'
-    picture: 'class="awesome" data-volume="11"'
-    img: 'class="some-other-class"'
+      parent: 'data-downloadable="true"'
+      picture: 'data-volume="11"'
+      img: 'class="lazy"'
 
   bloocks:
-    markup: data_auto
+    markup: auto
     link_source: false
-    noscript: true
     dimension_attributes: true # Page reflow begone!
 
     formats: [webp, original] # Must be an array, and order matters.
@@ -175,6 +174,8 @@ presets:
     fallback_format: original
 
     attributes:
+      parent: 'data-downloadable="true"'
+      picture: 'data-volume="11"'
       img: 'class="lazy"'
 
   
