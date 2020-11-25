@@ -123,6 +123,22 @@ on first install:  npm install -g node-gyp
 
 ## AMP Coockie consent
 
+### NOT AMP
+
+- https://blog.stranianelli.com/jekyll-e-cookie-consent/
+  - https://raw.githubusercontent.com/jhvanderschee/jekyllcodex/gh-pages/_includes/cookie-consent.html
+
+- https://www.quantcast.com/products/choice-consent-management-platform/
+- https://www.onetrust.com/free-edition/
+
+#### Guides
+
+- **https://www.analyticsmania.com/post/gdpr-cookie-consent-notification-with-google-tag-manager/#pros-and-cons**
+  - **https://www.onetrust.com/free-edition/**
+  - https://www.analyticsmania.com/google-tag-manager-recipes/gdpr-cookie-consent/
+
+### AMP
+
 - https://stackoverflow.com/questions/61929226/how-to-construct-amp-cookie-consent-with-the-help-of-amp-story-consent
 - https://amp.dev/documentation/components/amp-consent/
   - https://amp.dev/documentation/examples/?category=user-consent&format=websites#filter
@@ -134,7 +150,7 @@ on first install:  npm install -g node-gyp
   - https://blog-static.leevia.com/amp.html
 
 - https://community.cookiepro.com/s/article/UUID-94cf9b13-1998-d989-a5e0-d01a73a2e0a7
-
+- https://github.com/ampproject/amphtml/issues/13716
 
 ## Implementing workservices in AMP for PWA
 
@@ -166,6 +182,8 @@ https://www.speedywp.it/combinare-la-potenza-di-una-pwa-su-pagine-amp/
 - https://searchengineland.com/get-started-accelerated-mobile-pages-amp-240688
 - https://neilpatel.com/blog/the-definitive-guide-to-accelerated-mobile-pages-amp/
 - http://ampexamples.com/
+- https://craftweeks.com/en/set-google-custom-search-on-amp-static-sites/
+- https://searchengineland.com/googles-amp-project-announces-new-consent-component-ahead-of-gdpr-compliance-deadline-295633
 
 
 
