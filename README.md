@@ -70,6 +70,7 @@ on first install:  npm install -g node-gyp
 ## Build your site
 * `npm run build:dev` to compile the site with development settings
 * `npm run build:production` or `npm run build` to compile the site for production
+* `npm run build:bloocksprod` to compile the site for production on docs folder and optimize the code
 
 ### Building stuffs
 
@@ -236,6 +237,8 @@ https://stackoverflow.com/questions/54009824/how-to-build-jekyll-project-product
   - https://www.npmjs.com/package/workbox-cli
   - https://www.npmjs.com/package/gulp-amphtml-validator
 
+- npm install @ampproject/toolbox-cli
+  - https://blog.amp.dev/2019/08/08/announcing-amp-toolbox-1-0/
 - https://www.npmjs.com/package/purgecss
 - https://www.npmjs.com/package/npm-run-all
 - https://www.npmjs.com/package/html-minifier
