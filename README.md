@@ -173,11 +173,24 @@ https://www.speedywp.it/combinare-la-potenza-di-una-pwa-su-pagine-amp/
 
 ### NPM usefull packages
 
-- https://www.npmjs.com/package/rexreplace
-- https://www.npmjs.com/package/replace-in-file
-- https://www.npmjs.com/package/del-cli
-- https://preview.npmjs.com/package/find-remove
+- https://www.npmjs.com/package/pretty-delay-cli
 - https://www.npmjs.com/package/imagemin-cli
+- https://www.npmjs.com/package/foreach-cli
+- https://preview.npmjs.com/package/find-remove
+- https://www.npmjs.com/package/amphtml-validator
+  - https://www.npmjs.com/package/workbox-cli
+  - https://www.npmjs.com/package/gulp-amphtml-validator
+
+- https://www.npmjs.com/package/purgecss
+- https://www.npmjs.com/package/npm-run-all
+- https://www.npmjs.com/package/html-minifier
+- https://www.npmjs.com/package/static-sitemap-cli
+
+- [X] https://www.npmjs.com/package/rexreplace
+- [X] https://www.npmjs.com/package/replace-in-file
+- [X] https://www.npmjs.com/package/del-cli
+
+
 
 # Jekyll
 
