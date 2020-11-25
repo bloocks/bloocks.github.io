@@ -6,7 +6,7 @@
 - [X] nello scrpt npm aggiugere copia file  verso la cartella docs con https://www.npmjs.com/package/copyfiles
 - [ ] Nello script npm run build:bloocksprod aggiungere un modo per riuscire a copiare il contenuto CSS in file HTML di style.css in un file _includes/bloocks/themes/amp/css.html
 - [ ] Script npm per unire, gli stili on page e inserirli nel file style.css minimizzati
-- [ ] npm per src set per generare da tag img img più efficienti come fa jekyl_picture_tag
+- [ ] npm per src set per generare da tag img più efficienti come fa jekyl_picture_tag
 - [ ] npm per generare i link assoluti del sito in produzione (per ora genera link cosy href"/indirizzo/link.html")
 - [ ] Nello script npm run build:bloocksprod implementare anche imagemin per minimizzare le immagini https://www.npmjs.com/package/imagemin-cli
 - [ ] Implementare analytics, tag manager sia per amp che per aree non amp
@@ -26,6 +26,8 @@
 - [ ] [X] [...] Ho creato la task 'gulp processAmpStyles' che dopo aver creato il sito in produzione, crea una versione nella cartella _includes, ma va integrato bene blog AMP problema nel processo di gulp, il problema consiste nel fatto che prima devo generare il sito jekyll e poi processare i css in modo corretto solo che amp richiede css in linea che non possono essere importati da _includes/ prima del build
 - [ ] temi creare temi per store, fake comments, fake notifiche, integrzione json (per affiliazioni), integrazione thishirtify (o simili), snipchart, aree documenti, portfolio e sfide (challenges)
 - [ ] script che copia il contenuto di _sites in docs/ perchè è li che vanno serviti i file e controllare la generazione ridondante della cartella docs/ in _sites/ durante il deploy production
+
+- [ ] scrivere al proprietario di jekyll picture tag per capire se è disposto a cedere la licenza di utlizzo https://github.com/rbuchberger/jekyll_picture_tag/blob/master/LICENSE.txt
 
 # Buil process
 

@@ -702,10 +702,13 @@ https://github.com/Shopify/liquid/issues/531
 - https://github.com/orbeon/orbeon-forms/blob/master/LICENSE.txt
 - https://github.com/Formstone/Formstone/blob/master/license.txt
 - https://github.com/daattali/beautiful-jekyll
+- https://github.com/rbuchberger/jekyll_picture_tag/blob/master/LICENSE.txt
+- https://github.com/zerodevx/amp-build/blob/master/LICENSE.txt
 
 #### Open Licence for personal use
 
 https://www.quora.com/What-is-the-best-free-for-non-commercial-use-license-to-use-for-an-open-source-project
+
 
 
 #### Open licence for recupping payment/membership single client website
