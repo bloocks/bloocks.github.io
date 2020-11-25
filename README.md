@@ -125,14 +125,17 @@ on first install:  npm install -g node-gyp
 - https://laptrinhx.com/jekyll-starter-styled-with-tailwind-css-3277181270/
 - https://www.telerik.com/blogs/top-15-tailwind-css-plugins-resources
 
-# AMP
+# AMP themes
 
 - https://github.com/prototypearea/awesome-amp
 - https://github.com/JasonYao/JasonYao.github.io
 - https://github.com/samanyougarg/hanuman
 - https://github.com/zerodevx/amp-build
+- https://github.com/JasonYao/JasonYao.github.io
+- https://gitlab.com/MrCsabaToth/mrcsabatoth.gitlab.io
+- https://github.com/LordAmit/jekyll-amp-sample
 
-## Tools
+## AMP Tools
 
 - https://amp.dev/boilerplate/
 - https://app.amptemplates.io/
@@ -143,6 +146,7 @@ on first install:  npm install -g node-gyp
   - https://github.com/search?q=AMP+HTML
 - https://developers.google.com/web/tools/workbox
 - https://amp.dev/documentation/components/amp-lightbox/
+- https://github.com/juusaw/amp-jekyll
 
 ## Amp javascript menu
 
@@ -205,9 +209,7 @@ https://stackoverflow.com/questions/54009824/how-to-build-jekyll-project-product
      https://jekyllrb.com/docs/configuration/environments/
 
 
-- https://github.com/JasonYao/JasonYao.github.io
-- https://gitlab.com/MrCsabaToth/mrcsabatoth.gitlab.io
-- https://github.com/LordAmit/jekyll-amp-sample
+
 
 
 
@@ -223,6 +225,7 @@ https://stackoverflow.com/questions/54009824/how-to-build-jekyll-project-product
 - https://csaba.page/blog/amp-site-improvements.html
 - https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll/
 - https://www.simoahava.com/analytics/accelerated-mobile-pages-via-google-tag-manager/
+- https://www.johnnolan.dev/blog/2017/jekyll-amp-setup/
 
 
 # NPM usefull things
