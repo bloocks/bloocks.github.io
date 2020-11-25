@@ -154,6 +154,10 @@ on first install:  npm install -g node-gyp
 
 ## Implementing workservices in AMP for PWA
 
+### AMP Blog post tutorials
+
+- https://www.speedywp.it/combinare-la-potenza-di-una-pwa-su-pagine-amp/
+  - https://www.speedywp.it/service-worker.js
 
 https://github.com/matthodan/jekyll-asset-pipeline
 
@@ -170,11 +174,11 @@ https://stackoverflow.com/questions/54009824/how-to-build-jekyll-project-product
 
 
 https://github.com/JasonYao/JasonYao.github.io
+https://gitlab.com/MrCsabaToth/mrcsabatoth.gitlab.io
+https://gitlab.com/MrCsabaToth/mrcsabatoth.gitlab.io
 
 
-https://www.speedywp.it/combinare-la-potenza-di-una-pwa-su-pagine-amp/
 
-      https://www.speedywp.it/service-worker.js
 
 
 ## AMP Blog post tutorials
@@ -184,7 +188,7 @@ https://www.speedywp.it/combinare-la-potenza-di-una-pwa-su-pagine-amp/
 - http://ampexamples.com/
 - https://craftweeks.com/en/set-google-custom-search-on-amp-static-sites/
 - https://searchengineland.com/googles-amp-project-announces-new-consent-component-ahead-of-gdpr-compliance-deadline-295633
-
+- https://csaba.page/blog/amp-site-improvements.html
 
 
 # NPM usefull things
