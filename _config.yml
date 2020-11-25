@@ -61,6 +61,8 @@ google :
     # optimize_experiment_id: ' ' #I'id di dell'esperimento google optimize per A/B Testing
     # tagmanager_id: 'GTM-TPFPZHK' #id di google tag manager
     # ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
+    # ads_conversion_id: '' # id google ads_conversion_id
+    # double_click_id: '' id google double_click
 
 
 # bloocks

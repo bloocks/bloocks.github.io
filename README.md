@@ -27,6 +27,7 @@
 - [ ] temi creare temi per store, fake comments, fake notifiche, integrzione json (per affiliazioni), integrazione thishirtify (o simili), snipchart, aree documenti, portfolio e sfide (challenges)
 - [ ] script che copia il contenuto di _sites in docs/ perchè è li che vanno serviti i file e controllare la generazione ridondante della cartella docs/ in _sites/ durante il deploy production
 - [ ] [...] AMP analytics e non https://amp.dev/it/documentation/components/amp-analytics/
+  - https://developers.google.com/gtagjs/devguide/amp
   - https://developers.google.com/analytics/devguides/collection/amp-analytics
   - https://amp.dev/it/documentation/guides-and-tutorials/contribute/integrate-your-analytics-tools/?format=websites
   - https://github.com/ampproject/amphtml/blob/master/examples/analytics-vendors.amp.html
@@ -161,6 +162,7 @@ on first install:  npm install -g node-gyp
 - **https://www.analyticsmania.com/post/gdpr-cookie-consent-notification-with-google-tag-manager/#pros-and-cons**
   - **https://www.onetrust.com/free-edition/**
   - https://www.analyticsmania.com/google-tag-manager-recipes/gdpr-cookie-consent/
+  - https://support.google.com/analytics/answer/7486055
 
 ### AMP
 
@@ -198,9 +200,9 @@ https://stackoverflow.com/questions/54009824/how-to-build-jekyll-project-product
      https://jekyllrb.com/docs/configuration/environments/
 
 
-https://github.com/JasonYao/JasonYao.github.io
-https://gitlab.com/MrCsabaToth/mrcsabatoth.gitlab.io
-https://gitlab.com/MrCsabaToth/mrcsabatoth.gitlab.io
+- https://github.com/JasonYao/JasonYao.github.io
+- https://gitlab.com/MrCsabaToth/mrcsabatoth.gitlab.io
+- https://github.com/LordAmit/jekyll-amp-sample
 
 
 
@@ -214,6 +216,7 @@ https://gitlab.com/MrCsabaToth/mrcsabatoth.gitlab.io
 - https://craftweeks.com/en/set-google-custom-search-on-amp-static-sites/
 - https://searchengineland.com/googles-amp-project-announces-new-consent-component-ahead-of-gdpr-compliance-deadline-295633
 - https://csaba.page/blog/amp-site-improvements.html
+- https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll/
 - https://www.simoahava.com/analytics/accelerated-mobile-pages-via-google-tag-manager/
 
 

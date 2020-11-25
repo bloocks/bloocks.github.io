@@ -1,15 +1,14 @@
-<amp-analytics type="googleanalytics" id="amp-analytics">
-<script type="application/json">
-{
-  "vars": {
-    "account": "{{ site.google.tracking_id }}"
-  },
-  "triggers": {
-    "trackPageview": {
-      "on": "visible",
-      "request": "pageview"
+<amp-analytics type="gtag" data-credentials="include">
+  <script type="application/json">
+  {
+    "vars" : {
+      "gtag_id": "{{ site.google.tagmanager_id }}",
+      "config" : {
+        {% if site.google.tracking_id %}"{{ site.google.tracking_id }}": { "groups": "default" },{% endif %}
+        {% if site.google.double_click_id %}"{{ site.google.double_click_id }}": { "groups": "default" },{% endif %}
+        {% if site.google.ads_conversion_id %}"{{ site.google.ads_conversion_id }}": { "groups": "default" }{% endif %}
+      }
     }
   }
-}
-</script>
-</amp-analytics>
+  </script>
+  </amp-analytics>

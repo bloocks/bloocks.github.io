@@ -28,7 +28,8 @@
     "yargs": "^16.1.1",
     "replace-in-file": "^6.1.0",
     "glob": "^7.1.6",
-    "copyfiles": "^2.4.0"
+    "copyfiles": "^2.4.0",
+    "imagemin-cli": "^6.0.0"
   },
   "scripts": {
     "build:production": "cross-env NODE_ENV=production gulp",
