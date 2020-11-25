@@ -26,6 +26,27 @@
 - [ ] [X] [...] Ho creato la task 'gulp processAmpStyles' che dopo aver creato il sito in produzione, crea una versione nella cartella _includes, ma va integrato bene blog AMP problema nel processo di gulp, il problema consiste nel fatto che prima devo generare il sito jekyll e poi processare i css in modo corretto solo che amp richiede css in linea che non possono essere importati da _includes/ prima del build
 - [ ] temi creare temi per store, fake comments, fake notifiche, integrzione json (per affiliazioni), integrazione thishirtify (o simili), snipchart, aree documenti, portfolio e sfide (challenges)
 - [ ] script che copia il contenuto di _sites in docs/ perchè è li che vanno serviti i file e controllare la generazione ridondante della cartella docs/ in _sites/ durante il deploy production
+- [ ] [...] AMP analytics e non https://amp.dev/it/documentation/components/amp-analytics/
+  - https://developers.google.com/analytics/devguides/collection/amp-analytics
+  - https://amp.dev/it/documentation/guides-and-tutorials/contribute/integrate-your-analytics-tools/?format=websites
+  - https://github.com/ampproject/amphtml/blob/master/examples/analytics-vendors.amp.html
+  - https://amp.dev/it/documentation/guides-and-tutorials/optimize-and-measure/configure-analytics/analytics-vendors/?format=websites
+- [ ] [...] Capire e implementare google tag manager in AMP e non e sfruttare: https://www.analyticsmania.com/post/gdpr-cookie-consent-notification-with-google-tag-manager/
+  - https://support.google.com/tagmanager/answer/9205783?hl=it
+  - https://www.tagmanageritalia.it/guida-base-gestire-client-id-amp-google-tag-manager/#gref
+  - https://www.tagmanageritalia.it/come-implementare-google-analytics-in-google-tag-manager/#gref
+  - https://dataenthusiast.it/google-tag-manager/creare-il-tag-google-analytics-in-google-tag-manager/
+  - https://samuelschmitt.com/google-tag-manager-analytics-tutorial/ga-gtm-setup/
+  - https://www.simoahava.com/analytics/accelerated-mobile-pages-via-google-tag-manager/
+- [ ] Creare il bloocks AMP images https://amp.dev/documentation/examples/style-layout/how_to_support_images_with_unknown_dimensions/
+- [ ] Capire i tools per AMP:
+  - `<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>`
+  - `<script async custom-element="amp-consent" src="https://cdn.ampproject.org/v0/amp-consent-0.1.js"></script>`
+  - `<script async custom-element="amp-geo" src="https://cdn.ampproject.org/v0/amp-geo-0.1.js"></script>`
+  - `<script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>`
+    - https://amp.dev/documentation/components/amp-lightbox/
+  - `<script async custom-element="amp-web-push" src="https://cdn.ampproject.org/v0/amp-web-push-0.1.js"></script>`
+
 
 - [ ] scrivere al proprietario di jekyll picture tag per capire se è disposto a cedere la licenza di utlizzo https://github.com/rbuchberger/jekyll_picture_tag/blob/master/LICENSE.txt
 
@@ -115,11 +136,15 @@ on first install:  npm install -g node-gyp
 - https://github.com/rkazakov/ampify
   - https://github.com/search?q=AMP+HTML
 - https://developers.google.com/web/tools/workbox
+- https://amp.dev/documentation/components/amp-lightbox/
 
 ## Amp javascript menu
 
 - 
 
+## Amp images tutorial
+
+- https://amp.dev/documentation/examples/style-layout/how_to_support_images_with_unknown_dimensions/?format=websites
 
 ## AMP Coockie consent
 
@@ -189,6 +214,7 @@ https://gitlab.com/MrCsabaToth/mrcsabatoth.gitlab.io
 - https://craftweeks.com/en/set-google-custom-search-on-amp-static-sites/
 - https://searchengineland.com/googles-amp-project-announces-new-consent-component-ahead-of-gdpr-compliance-deadline-295633
 - https://csaba.page/blog/amp-site-improvements.html
+- https://www.simoahava.com/analytics/accelerated-mobile-pages-via-google-tag-manager/
 
 
 # NPM usefull things
@@ -224,6 +250,7 @@ https://gitlab.com/MrCsabaToth/mrcsabatoth.gitlab.io
 
 - https://github.com/jeffreytse/jekyll-spaceship
 - https://github.com/tkareine/jekyll-minibundle
+- https://github.com/wildlyinaccurate/jekyll-responsive-image
 
 ## Themes and scripts
 
