@@ -29,6 +29,7 @@ group :jekyll_plugins do
   gem 'jekyll_picture_tag'
   gem 'jekyll-target-blank'
   gem 'jekyll-menus'
+  gem 'jekyll-responsive-image'
 #  gem 'jekyll-admin'
 end
 

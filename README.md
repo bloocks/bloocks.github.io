@@ -11,7 +11,7 @@
 - [ ] Nello script npm run build:bloocksprod implementare anche imagemin per minimizzare le immagini https://www.npmjs.com/package/imagemin-cli
 - [ ] Implementare analytics, tag manager sia per amp che per aree non amp
 - [ ] [...] continuare a creare il menu
-- [ ] Capire controllare licenza ed implementare i seguenti plugin
+- [ ] [...] Capire controllare licenza ed implementare i seguenti plugin
   - https://github.com/jeffreytse/jekyll-spaceship
   - https://github.com/tkareine/jekyll-minibundle
   - https://github.com/wildlyinaccurate/jekyll-responsive-image
