@@ -1,0 +1,10 @@
+
+/404.html
+/blog/
+/feed.xml
+/flare.html
+/
+/landmark.html
+/sitemap.txt
+
+/2020/11/18/bloocks-is-out.html
