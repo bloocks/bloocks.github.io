@@ -286,6 +286,7 @@ https://stackoverflow.com/questions/54009824/how-to-build-jekyll-project-product
 
 - https://staticman.net/
 - https://utteranc.es/
+- https://github.com/pmarsceill/jekyll-seo-gem
 
 
 # Other tools
