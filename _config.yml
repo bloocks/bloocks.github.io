@@ -56,10 +56,12 @@ facebook:
 # Analytics
 
 google :
-    tracking_id : 'G-TWB8WZHFW1' #Id google analitics
+    tracking_id : 'G-QSWTLSSE28' #Id google analitics
+    amp_tracking_id: 'UA-184034920-1'
     # optimize_id : 'GTM-NF68992' #I'id di google optimize per A/B Testing
     # optimize_experiment_id: ' ' #I'id di dell'esperimento google optimize per A/B Testing
     tagmanager_id: 'GTM-TZFDWZR' #id di google tag manager
+    amp_tagmanager_id: 'GTM-PD8KN8K'
     # ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
     # ads_conversion_id: '' # id google ads_conversion_id
     # double_click_id: '' id google double_click
