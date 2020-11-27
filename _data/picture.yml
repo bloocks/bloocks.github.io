@@ -8,7 +8,7 @@ media_queries:
 presets:
   default:
     markup: auto
-    link_source: true
+    link_source: false
     dimension_attributes: true
     formats: [webp, original]   
     format_quality:
@@ -27,9 +27,25 @@ presets:
     fallback_format: original
     attributes:
       parent: 'data-downloadable="true"'
-      picture: 'class="awesome" data-volume="11"'
-      img: 'class="some-other-class"'
-      a: 'class="image-link"'
+      picture: 'data-volume="11"'
+      img: 'class="lazy"'
+  bloocks:
+    markup: auto
+    link_source: false
+    dimension_attributes: true # Page reflow begone!
+    formats: [webp, original] # Must be an array, and order matters.
+    widths: [200, 400, 800, 1600] # Must be an array.
+    media_widths: # Because a cell phone doesn't want 1600 pixels.
+      mobile: [200, 400, 600] 
+      tablet: [400, 600, 800]
+    sizes: 
+      mobile: 100vw
+      tablet: 80vw
+    size: 800px
+    fallback_width: 800
+    fallback_format: original
+    attributes:
+      img: 'class="lazy"'
   icon:
     base_width: 20
     pixel_ratios: [1, 1.5, 2]

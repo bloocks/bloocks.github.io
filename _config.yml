@@ -56,7 +56,7 @@ facebook:
 # Analytics
 
 google :
-    # tracking_id : 'UA-126238091-1' #Id google analitics
+    # tracking_id : 'G-9QVE34Z1PN' #Id google analitics
     # optimize_id : 'GTM-NF68992' #I'id di google optimize per A/B Testing
     # optimize_experiment_id: ' ' #I'id di dell'esperimento google optimize per A/B Testing
     # tagmanager_id: 'GTM-TZFDWZR' #id di google tag manager
@@ -67,6 +67,15 @@ google :
 
 # bloocks
 
+# Menu
+
+## Call to actions menu, link and text
+
+cta:
+  ctamenu: 'Yo! I&#39;m in!' # 'I&#39;m in!' for special characters use ASCII codes with &# after 'code_num' https://theasciicode.com.ar/ascii-printable-characters/braces-curly-brackets-opening-ascii-code-123.html
+  ctamenulink: 'bloocker/'
+  menuextra: 'Ask'
+  menuextralink: 'ask/'
 
 ## Colors And typografy
 
@@ -98,14 +107,16 @@ compress_html:
 
 ## jekyll-responsive-image https://github.com/wildlyinaccurate/jekyll-responsive-image need to have template file into _includes/ folder no upfolders or downfolders
 
-responsive_image:
-  template: _includes/srcset-resized-fallback.html
-  sizes:
-    - width: 1800
-    - width: 1200
-    - width: 800
-    - width: 480
-    - width: 320
+#responsive_image:
+#  template: _includes/srcset-resized-fallback.html
+#  sizes:
+#    - width: 1800
+#    - width: 1200
+#    - width: 800
+#    - width: 480
+#    - width: 320
+#  base_path: img
+#  output_path_format: img/resized/%{width}/%{basename}
 
 ## Jekyll picture tag https://rbuchberger.github.io/jekyll_picture_tag/
 picture:
@@ -123,105 +134,7 @@ picture:
 
 # cdn_url: https://cdn.statically.io/img/bloocks.github.io/img/ 
 
-## Jekyll picture tag presets examples https://rbuchberger.github.io/jekyll_picture_tag/users/presets/examples.html
-
-media_queries:
-  wide_desktop: 'min-width: 1801px'
-  desktop: 'max-width: 1800px'
-  wide_tablet: 'max-width: 1200px'
-  tablet: 'max-width: 900px'
-  mobile: 'max-width: 600px'
-
-presets:
-  default:
-    markup: auto
-    link_source: false # wrap images in a link to the original source image.
-    dimension_attributes: true # Page reflow begone!
-
-    formats: [webp, original] # Must be an array, and order matters.
-
-    widths: [200, 400, 800, 1600] # Must be an array.
-    media_widths: # Because a cell phone doesn't want 1600 pixels.
-      mobile: [200, 400, 600] 
-      tablet: [400, 600, 800]
-
-    sizes: 
-      mobile: 100vw
-      tablet: 80vw
-    size: 800px
-
-    fallback_width: 800
-    fallback_format: original
-
-    attributes:
-      parent: 'data-downloadable="true"'
-      picture: 'data-volume="11"'
-      img: 'class="lazy"'
-
-  bloocks:
-    markup: auto
-    link_source: false
-    dimension_attributes: true # Page reflow begone!
-
-    formats: [webp, original] # Must be an array, and order matters.
-
-    widths: [200, 400, 800, 1600] # Must be an array.
-    media_widths: # Because a cell phone doesn't want 1600 pixels.
-      mobile: [200, 400, 600] 
-      tablet: [400, 600, 800]
-
-    sizes: 
-      mobile: 100vw
-      tablet: 80vw
-    size: 800px
-
-    fallback_width: 800
-    fallback_format: original
-
-    attributes:
-      parent: 'data-downloadable="true"'
-      picture: 'data-volume="11"'
-      img: 'class="lazy"'
-
-  
-  # This is an example of how you would create a 'multiplier' based srcset;
-  # useful when an image will always be the same size on all screens (icons,
-  # graphics, thumbnails, etc), but you'd like to supply higher resolution
-  # images to devices with higher pixel ratios.
-  icon:
-    base_width: 20 # How wide the 1x image should be.
-    pixel_ratios: [1, 1.5, 2]
-    fallback_width: 20
-    attributes:
-      img: 'class="icon"'
-
-  # Here's an example of how you'd configure jekyll-picture-tag to work with
-  # something like lazyload: https://github.com/verlok/lazyload
-  lazy:
-    markup: data_auto
-    formats: [webp, original]
-    widths: [200, 400, 600, 800]
-    noscript: true # add a fallback image inside a <noscript> tag.
-    attributes: 
-      img: class="lazy"
-
-  # This is an example of how you'd get generated image and a URL, and nothing
-  # else.
-  direct:
-    markup: direct_url
-    fallback_format: webp
-    fallback_width: 600
-  
-  svgdirect:
-    markup: direct_url
-    fallback_format: original
-
-  # Here's a naked srcset. Doesn't even give you the surrounding quotes.
-  srcset:
-    markup: naked_srcset
-    formats: [webp, original] # must be an array, even if it only has one item
-
-## END EXAMPLE Jekyll picture tag presets examples https://rbuchberger.github.io/jekyll_picture_tag/users/presets/examples.html
+## Jekyll picture tag presets are in _data/picture.yml file from examples https://rbuchberger.github.io/jekyll_picture_tag/users/presets/examples.html
 
 ## don't works in leatest version of jekyll jekyll-imagemagick plugin for Jekyll picture tag https://rdoc.info/gems/jekyll-imagemagick
 
@@ -308,7 +221,7 @@ plugins:
   - jekyll-target-blank # https://github.com/keithmifsud/jekyll-target-blank
   - jekyll-seo-tag # https://github.com/jekyll/jekyll-seo-tag
   - jekyll-menus # https://github.com/dojekyll/jekyll-menus
-  - jekyll-responsive-image # https://github.com/wildlyinaccurate/jekyll-responsive-image
+#  - jekyll-responsive-image # https://github.com/wildlyinaccurate/jekyll-responsive-image
 
 exclude:
   - Gemfile

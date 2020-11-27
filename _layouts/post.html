@@ -4,9 +4,10 @@ layout: compress
 <!-- Bloocks Theme constructor -->
 
 {% include bloocks/themes/amp/header.html %}
+<main class=" overflow-x-hidden antialiased">
+{% assign menu = site.menus.header %}
+{% include bloocks/themes/menu/amp/main.html %}
 
-{% include bloocks/themes/amp/menu.html %}
-<main>
 <div class="m-auto flex justify-between py-8 lg:px-0">
   <div class="w-full md:w-3/4 px-6">
     {{ content }}
@@ -16,9 +17,9 @@ layout: compress
     {% include bloocks/themes/amp/aside.html %}
   </div>
 </div>
-</main>
-{% include bloocks/themes/amp/footer.html %}
 
+{% include bloocks/themes/amp/footer.html %}
+</main>
 {% include bloocks/themes/amp/scripts.html %}
 
 

@@ -704,6 +704,7 @@ https://github.com/Shopify/liquid/issues/531
 - https://github.com/daattali/beautiful-jekyll
 - https://github.com/rbuchberger/jekyll_picture_tag/blob/master/LICENSE.txt
 - https://github.com/zerodevx/amp-build/blob/master/LICENSE.txt
+- **https://github.com/metafizzy/flickity#commercial-license**
 
 #### Open Licence for personal use
 

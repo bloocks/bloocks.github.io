@@ -7,11 +7,13 @@ layout: compress
 
 
 
-<main> 
-  {% include bloocks/themes/landmark/menu.html %}
+<main class=" overflow-x-hidden antialiased"> 
+  {% assign menu = site.menus.header %}
+  {% include bloocks/themes/menu/main.html %}
   {{ content }}
-</main>
+
 {% include bloocks/themes/landmark/footer.html %} 
+</main>
 {% include bloocks/themes/landmark/scripts.html %}
 
 

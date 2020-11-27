@@ -6,37 +6,34 @@
 - [X] nello scrpt npm aggiugere copia file  verso la cartella docs con https://www.npmjs.com/package/copyfiles
 - [ ] Nello script npm run build:bloocksprod aggiungere un modo per riuscire a copiare il contenuto CSS in file HTML di style.css in un file _includes/bloocks/themes/amp/css.html
 - [ ] Script npm per unire, gli stili on page e inserirli nel file style.css minimizzati
-- [ ] npm per src set per generare da tag img più efficienti come fa jekyl_picture_tag
-- [ ] npm per generare i link assoluti del sito in produzione (per ora genera link cosy href"/indirizzo/link.html")
+- [ ] npm per generare i link assoluti del sito in produzione (per ora genera link cosi href"/indirizzo/link.html")
 - [ ] Nello script npm run build:bloocksprod implementare anche imagemin per minimizzare le immagini https://www.npmjs.com/package/imagemin-cli
 - [ ] Implementare analytics, tag manager sia per amp che per aree non amp
 - [ ] [...] continuare a creare il menu
-- [ ] [...] Capire controllare licenza ed implementare i seguenti plugin
-  - https://github.com/jeffreytse/jekyll-spaceship
-  - https://github.com/tkareine/jekyll-minibundle
-  - https://github.com/wildlyinaccurate/jekyll-responsive-image
 - [ ] Implementare una logica per utilizzare jekyll picture tag sfruttando https://statically.io
 - [ ] Utilizzare le forme {{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }} {{ '/js/amp-script.js' | absolute_url }} per linkare i contenuti dato che tailwind css ha problemi nel rendering degli stili se usati tag liquid a metà classe es. bg-{{ site.color }}-600 [Jekyll reference](https://jekyllrb.com/docs/liquid/filters/) -- https://stackoverflow.com/questions/30011684/can-you-use-jekyll-layout-variables-in-pages -- [Tailwind reference](https://tailwindcss.com/docs/optimizing-for-production) 
 - [ ] Ricreare tutti i bloocks per tailwind css
-- [ ] implementare le estensioni blog.bloocks.net, store.bloocks.net, challenges.bloocks.net, portfolio.cloocks.net, bloocks.dev (per il framework bloocks)
+- [ ] implementare le estensioni blog.bloocks.net, store.bloocks.net, challenges.bloocks.net, portfolio.bloocks.net, bloocks.dev (per il framework bloocks)
 - [ ] logica bloocks più serrata, fare un area in helpers dove si riesce a importare gli stili tailwind in modo dinamico (font colori )
 - [ ] AMP analytics e AMP ADSense e versioni non AMP
 - [ ] Implementare forms
 - [ ] Ecommerce cpn https://github.com/snipcart/stackbit-theme-planty/blob/master/config.yml
 - [ ] **Implementare Alpine.js**
   - https://www.alpinetoolbox.com/
-- [ ] cypress.io cypress run --record --key 8151b23a-8558-4275-8d15-acb2faae3510 
 - [ ] Browsersync probelms ribuovere body html tags in production e renderlo funzionale per jekyll-admin https://github.com/jekyll/jekyll-admin/issues/243
 - [ ] [X] [...] Ho creato la task 'gulp processAmpStyles' che dopo aver creato il sito in produzione, crea una versione nella cartella _includes, ma va integrato bene blog AMP problema nel processo di gulp, il problema consiste nel fatto che prima devo generare il sito jekyll e poi processare i css in modo corretto solo che amp richiede css in linea che non possono essere importati da _includes/ prima del build
 - [ ] temi creare temi per store, fake comments, fake notifiche, integrzione json (per affiliazioni), integrazione thishirtify (o simili), snipchart, aree documenti, portfolio e sfide (challenges)
 - [ ] script che copia il contenuto di _sites in docs/ perchè è li che vanno serviti i file e controllare la generazione ridondante della cartella docs/ in _sites/ durante il deploy production
 - [ ] [...] AMP analytics e non https://amp.dev/it/documentation/components/amp-analytics/
+  - https://samuelschmitt.com/google-tag-manager-analytics-tutorial/ga-gtm-setup/
+    - https://samuelschmitt.com/google-tag-manager-analytics-tutorial/
   - https://developers.google.com/gtagjs/devguide/amp
   - https://developers.google.com/analytics/devguides/collection/amp-analytics
   - https://amp.dev/it/documentation/guides-and-tutorials/contribute/integrate-your-analytics-tools/?format=websites
   - https://github.com/ampproject/amphtml/blob/master/examples/analytics-vendors.amp.html
   - https://amp.dev/it/documentation/guides-and-tutorials/optimize-and-measure/configure-analytics/analytics-vendors/?format=websites
-- [ ] [...] Capire e implementare google tag manager in AMP e non e sfruttare: https://www.analyticsmania.com/post/gdpr-cookie-consent-notification-with-google-tag-manager/
+- [ ] [...] Capire e implementare google tag manager in AMP e non e sfruttare: https://www.tagmanageritalia.it/guida-base-come-gestire-la-cookie-law-con-onetrust/#gref
+  - https://www.analyticsmania.com/post/gdpr-cookie-consent-notification-with-google-tag-manager/
   - https://support.google.com/tagmanager/answer/9205783?hl=it
   - https://www.tagmanageritalia.it/guida-base-gestire-client-id-amp-google-tag-manager/#gref
   - https://www.tagmanageritalia.it/come-implementare-google-analytics-in-google-tag-manager/#gref
@@ -54,6 +51,12 @@
 
 
 - [ ] scrivere al proprietario di jekyll picture tag per capire se è disposto a cedere la licenza di utlizzo https://github.com/rbuchberger/jekyll_picture_tag/blob/master/LICENSE.txt
+  - [ ] npm per src set per generare da tag img più efficienti come fa jekyl_picture_tag
+- [ ] [...] Capire controllare licenza ed implementare i seguenti plugin
+  - https://github.com/jeffreytse/jekyll-spaceship
+  - https://github.com/tkareine/jekyll-minibundle
+  - https://github.com/wildlyinaccurate/jekyll-responsive-image
+- [ ] cypress.io cypress run --record --key 8151b23a-8558-4275-8d15-acb2faae3510 
 
 # Buil process
 
@@ -116,6 +119,9 @@ on first install:  npm install -g node-gyp
 
 - **https://www.telerik.com/blogs/top-15-tailwind-css-plugins-resources**
 - https://www.tailwindtoolbox.com/plugins
+- https://github.com/lorisleiva/tailwindcss-plugins
+- https://themesberg.com/blog/tailwind-css/plugins
+- 
 
 ### Tutorials
 
