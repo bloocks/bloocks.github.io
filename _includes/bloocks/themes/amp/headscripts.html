@@ -29,10 +29,10 @@
 <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
 -->
 {% if site.google.tagmanager_id %}
-    {% include bloocks/themes/global/amp/analyticscripts.html %}
+    {% include bloocks/themes/global/amp/analytics/analyticscripts.html %}
 {% endif %}
 {% if site.google.ad_client %}
-    {% include bloocks/themes/global/amp/adblockscripts.html %}
+    {% include bloocks/themes/global/amp/analytics/adblockscripts.html %}
 {% endif %}
 <style amp-custom>
 {% include bloocks/themes/amp/css.html %}
