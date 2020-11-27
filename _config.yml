@@ -22,7 +22,7 @@ locale: en_US
 
 logo: "/img/main-logo.png"
 
-google_site_verification: 1234
+# google_site_verification: 1234
 
 webmaster_verifications:
   # google: 1234
