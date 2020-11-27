@@ -7,13 +7,13 @@ header:
     url: /
     identifier: home
     weight: 1
-  - title: About
-    url: /about
-    identifier: about
+  - title: Themes
+    url: /themes
+    identifier: themes
     weight: 2
-  - title: Why
-    url: /why
-    identifier: why
+  - title: Roadmap
+    url: /roadmap
+    identifier: roadmap
     weight: 3
 header-sample:
   - title: Home

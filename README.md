@@ -102,6 +102,9 @@ on first install:  npm install -g node-gyp
 - https://github.com/thedevdojo/tails
   - https://devdojo.com/tailwindcss/components
 - https://tailwindcss.com/
+- https://tailwindui.com/preview
+- https://tailwindui.com/components/marketing/sections/heroes
+- https://tailwindui.com/components/marketing/elements/headers
 
 #### Templating Single problems
 
@@ -240,6 +243,7 @@ https://stackoverflow.com/questions/54009824/how-to-build-jekyll-project-product
 
 - https://www.npmjs.com/package/pretty-delay-cli
 - https://www.npmjs.com/package/imagemin-cli
+- https://github.com/badrap/bar-of-progress
 - https://www.npmjs.com/package/foreach-cli
 - https://preview.npmjs.com/package/find-remove
 - https://www.npmjs.com/package/amphtml-validator
@@ -276,6 +280,7 @@ https://stackoverflow.com/questions/54009824/how-to-build-jekyll-project-product
 - https://github.com/UriShX/Jekyll-portfolio
 - https://github.com/JasonYao/JasonYao.github.io
 - https://github.com/daattali/beautiful-jekyll
+- https://github.com/tailwindlabs/tailwindcss-setup-examples/tree/master/examples/jekyll
 
 ### Jekyll scraping tools
 
