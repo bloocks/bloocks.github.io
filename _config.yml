@@ -56,10 +56,10 @@ facebook:
 # Analytics
 
 google :
-    # tracking_id : 'G-9QVE34Z1PN' #Id google analitics
+    tracking_id : 'G-9QVE34Z1PN' #Id google analitics
     # optimize_id : 'GTM-NF68992' #I'id di google optimize per A/B Testing
     # optimize_experiment_id: ' ' #I'id di dell'esperimento google optimize per A/B Testing
-    # tagmanager_id: 'GTM-TZFDWZR' #id di google tag manager
+    tagmanager_id: 'GTM-TZFDWZR' #id di google tag manager
     # ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
     # ads_conversion_id: '' # id google ads_conversion_id
     # double_click_id: '' id google double_click
@@ -97,8 +97,6 @@ cta:
 # Ecommerce
 ## Payment plugin
 
-# analytics: UA-82634666-2
-# fbappid: 310296819307942
 
 # This instruction that use http://jch.penibelst.de/ tech is used to delete all HTML comments
 
