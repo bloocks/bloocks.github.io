@@ -2,8 +2,8 @@ environment: development
 language: en-US # used in head <html class="no-js" lang="{{ site.language }}">
 title: Bloocks fastest websites generator ever!
 description: Build badass and fastest marketing websites with Bloocks, a static websites generator to build Ecommerce and websites on top of tecnical performaces.
-name: <span class="ml-3 text-xl text-gray-800">Bl<span class="text-pink-500">o</span><span class="text-indigo-600">o</span>cks<span class="text-pink-500">!</span></span>
-
+logo_name: <span class="ml-3 text-xl text-gray-800">Bl<span class="text-pink-500">o</span><span class="text-indigo-600">o</span>cks<span class="text-pink-500">!</span></span>
+domain_name: bloocks.dev
 
 # for Jekyll SEO tag plugin and for using information into the project code structure
 # Usage at https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md

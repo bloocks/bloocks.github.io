@@ -1,0 +1,5 @@
+---
+---
+{% if site.domain_name %}
+    {{ site.domain_name }}
+{% endif %}
