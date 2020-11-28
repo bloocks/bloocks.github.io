@@ -244,9 +244,12 @@ https://stackoverflow.com/questions/54009824/how-to-build-jekyll-project-product
 
 ### NPM usefull packages
 
+- https://github.com/permalinks/permalinks
 - https://www.npmjs.com/package/pretty-delay-cli
 - https://www.npmjs.com/package/imagemin-cli
 - https://github.com/badrap/bar-of-progress
+- https://github.com/matt-bailey/grunt-frontend-boilerplate
+- https://github.com/here-be
 - https://www.npmjs.com/package/foreach-cli
 - https://preview.npmjs.com/package/find-remove
 - https://www.npmjs.com/package/amphtml-validator
@@ -259,6 +262,10 @@ https://stackoverflow.com/questions/54009824/how-to-build-jekyll-project-product
 - https://www.npmjs.com/package/npm-run-all
 - https://www.npmjs.com/package/html-minifier
 - https://www.npmjs.com/package/static-sitemap-cli
+
+- https://cssinjs.org/?v=v10.5.0
+  - https://gist.github.com/wildfrontend/a12bc826b3a26ae81c6657b56fb6449f
+
 
 - [X] https://www.npmjs.com/package/rexreplace
 - [X] https://www.npmjs.com/package/replace-in-file
@@ -321,3 +328,13 @@ https://htmx.org/
 - https://cookiescript.info
 - https://jekyllcodex.org/without-plugin/cookie-consent/
 - https://www.cookieconsent.com/
+
+
+
+# Altri tool non inerenti
+
+- https://www.scraperapi.com/documentation
+- http://httpbin.org
+- https://web-platform-tests.org/
+- https://github.com/mui-org/material-ui
+  - https://thefront-styleguide.maccarianagency.com/

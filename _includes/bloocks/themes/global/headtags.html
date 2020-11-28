@@ -4,6 +4,11 @@
 {% if site.google.ad_client %}
     {% include bloocks/themes/global/analytics/adblockscripts.html %}
 {% endif %}
+{% if site.quantcast.qucode %}
+    {% include bloocks/themes/global/analytics/quantcastuniversal.html %}
+{% endif %}
+
+
 
 <meta name="theme-color" content="#ffffff">
 
