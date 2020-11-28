@@ -24,7 +24,8 @@
 - [ ] [X] [...] Ho creato la task 'gulp processAmpStyles' che dopo aver creato il sito in produzione, crea una versione nella cartella _includes, ma va integrato bene blog AMP problema nel processo di gulp, il problema consiste nel fatto che prima devo generare il sito jekyll e poi processare i css in modo corretto solo che amp richiede css in linea che non possono essere importati da _includes/ prima del build
 - [ ] temi creare temi per store, fake comments, fake notifiche, integrzione json (per affiliazioni), integrazione thishirtify (o simili), snipchart, aree documenti, portfolio e sfide (challenges)
 - [ ] script che copia il contenuto di _sites in docs/ perchè è li che vanno serviti i file e controllare la generazione ridondante della cartella docs/ in _sites/ durante il deploy production
-- [ ] [...] AMP analytics e non https://amp.dev/it/documentation/components/amp-analytics/
+- [ ] [...] AMP analytics e non **https://github.com/ampproject/amphtml/tree/master/examples**
+  - https://amp.dev/it/documentation/components/amp-analytics/
   - https://samuelschmitt.com/google-tag-manager-analytics-tutorial/ga-gtm-setup/
     - https://samuelschmitt.com/google-tag-manager-analytics-tutorial/
   - https://developers.google.com/gtagjs/devguide/amp
@@ -91,7 +92,7 @@ on first install:  npm install -g node-gyp
 
 ## AMP, tailwind css purgecss
 
-- https://github.com/zerodevx/amp-build
+- **https://github.com/ampproject/amphtml/tree/master/examples**
 
 ### Templateing resources
 
@@ -141,7 +142,8 @@ on first install:  npm install -g node-gyp
 - https://github.com/JasonYao/JasonYao.github.io
 - https://github.com/samanyougarg/hanuman
 - https://github.com/zerodevx/amp-build
-- https://github.com/JasonYao/JasonYao.github.io
+- https://github.com/zerodevx/amp-build
+- **https://github.com/JasonYao/JasonYao.github.io**
 - https://gitlab.com/MrCsabaToth/mrcsabatoth.gitlab.io
 - https://github.com/LordAmit/jekyll-amp-sample
 
@@ -307,3 +309,15 @@ https://htmx.org/
 - https://statically.io
   - Sample to use image https://cdn.statically.io/img/fomofoto.github.io/assets/images/prezzels.jpg
   - Sample html/css/js asset from github that will be minified by adding .min https://cdn.statically.io/gh/:user"jojekyll"/:repo"fleektest"/:tag"main"/:file"wp-includes/js/jquery/
+
+
+
+
+# Coockie consent
+
+## Tools interessanti
+
+- https://www.quantcast.com/measure
+- https://cookiescript.info
+- https://jekyllcodex.org/without-plugin/cookie-consent/
+- https://www.cookieconsent.com/

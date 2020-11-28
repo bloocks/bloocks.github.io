@@ -1,3 +1,7 @@
+{% if site.quantcast.qcode %}
+    {% include bloocks/themes/global/analytics/quantcastag.html %}
+{% endif %}
+
 {% if site.google.tagmanager_id %}
     {% include bloocks/themes/global/analytics/analytics.html %}
 {% endif %}

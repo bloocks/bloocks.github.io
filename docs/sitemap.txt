@@ -1,6 +1,7 @@
 
 /404.html
 /blog/
+/bloocks.html
 /feed.xml
 /flare.html
 /

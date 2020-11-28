@@ -66,6 +66,11 @@ google :
     # ads_conversion_id: '' # id google ads_conversion_id
     # double_click_id: '' id google double_click
 
+# Coockie consent by quantcast https://www.quantcast.com/products/choice-consent-management-platform/
+
+quantcast:
+  qcode: 'p-dvLkrYyUzKp8p'
+  email: 'lantoniotrento@gmail.com'
 
 # bloocks
 
@@ -239,4 +244,3 @@ exclude:
   - postcss.config.js
   - build.js
   - docs
-  - bloocks.html
