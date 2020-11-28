@@ -40,6 +40,7 @@
   - https://dataenthusiast.it/google-tag-manager/creare-il-tag-google-analytics-in-google-tag-manager/
   - https://samuelschmitt.com/google-tag-manager-analytics-tutorial/ga-gtm-setup/
   - https://www.simoahava.com/analytics/accelerated-mobile-pages-via-google-tag-manager/
+  - https://pilotdigital.com/blog/optimizing-gtm-for-page-speed/
 - [ ] Creare il bloocks AMP images https://amp.dev/documentation/examples/style-layout/how_to_support_images_with_unknown_dimensions/
 - [ ] Capire i tools per AMP:
   - `<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>`
