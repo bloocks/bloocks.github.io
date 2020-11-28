@@ -1,0 +1,21 @@
+---
+layout: compress
+---
+<!-- Bloocks Theme constructor -->
+
+{% include bloocks/themes/bloocks/header.html %}
+
+
+<main> 
+  {% assign menu = site.menus.header %}
+  {% include bloocks/themes/bloocks/menu/main.html %}
+  {{ content }}
+
+  {% include bloocks/themes/bloocks/footer.html %}
+</main>
+
+{% include bloocks/themes/bloocks/scripts.html %}
+
+<!-- ****************************** DO NOT DELETE LINES BELOW **************************************** 
+    This include MUST BE at least of /_layout/bloocks_theme_name.html to close the HTML tags -->
+    {% include bloocks/themes/global/end.html %}

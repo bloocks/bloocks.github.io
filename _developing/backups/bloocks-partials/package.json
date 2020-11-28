@@ -14,7 +14,7 @@
     "gulp": "4.0.2",
     "gulp-postcss": "^9.0.0",
     "postcss-import": "12.0.1",
-    "tailwindcss": "2.0.1",
+    "tailwindcss": "1.9.6",
     "postcss": "^8.1.4",
     "postcss-cli": "^7.1.2",
     "rucksack-css": "^1.0.2",
