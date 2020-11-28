@@ -1,5 +1,8 @@
 # TODO
 
+- [ ] vedere se tailwind va con jss https://cssinjs.org/
+  - https://github.com/cssinjs/theming
+  - https://gist.github.com/wildfrontend/a12bc826b3a26ae81c6657b56fb6449f 
 - [X] Trovare il modo per rimuovere i tag head e html che vanno iniettati con browsersync quando viene messo in produzione **forse con https://www.npmjs.com/package/rexreplace oppure https://www.npmjs.com/package/replace-in-file**
   - https://stackoverflow.com/questions/14177087/replace-a-string-in-a-file-with-nodejs?newreg=59bf23bc92f846ba80e0b7e340f4c89d
     - https://www.foxinfotech.in/2019/05/linux-unix-remove-html-tags-from-file-html-to-text.html
