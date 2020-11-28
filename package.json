@@ -33,9 +33,11 @@
   },
   "scripts": {
     "build:production": "cross-env NODE_ENV=production gulp",
-    "build:bloocksprod": "npm run build && replace-in-file \" </body> </html> \" \" \" \"_site/**/*.html\" && copyfiles -u 1 \"./_site/**/*\" ./docs && copyfiles -u 3 \"./_site/assets/css/style.css\" \"./_includes/bloocks/themes/amp/\"",
+    "build:bloocksprod": "npm run build && npm run removebrowsersync  && npm run copyindocs",
+    "removebrowsersync": "replace-in-file \" </body> </html> \" \" \" \"_site/**/*.html\"",
+    "copyindocs": "copyfiles -u 1 \"./_site/**/*\" ./docs && copyfiles -u 3 \"./_site/assets/css/style.css\" \"./_includes/bloocks/themes/amp/\"",
     "build:dev": "cross-env NODE_ENV=development gulp",
-    "build": "npm run build:production",
+    "build": "npm run build:bloocksprod",
     "dev": "cross-env NODE_ENV=development gulp serve",
     "start": "npm run dev"
   },
