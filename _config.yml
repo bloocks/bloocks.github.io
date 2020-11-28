@@ -239,3 +239,4 @@ exclude:
   - postcss.config.js
   - build.js
   - docs
+  - bloocks.html
