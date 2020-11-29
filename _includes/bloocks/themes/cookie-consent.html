@@ -1,4 +1,3 @@
-{% if site.internalconsent=='true' %}
 <style>
     #cookie-notice {width: 100%; z-index:10000; display: none; position: fixed; bottom: 0;}
 </style>
@@ -30,7 +29,7 @@
     </div>
 </nav>
 
-  <script async>
+  <script>
     function createCookie(name,value,days) {
         var expires = "";
         if (days) {
@@ -55,13 +54,11 @@
     }
 
     if(readCookie('cookie-notice-dismissed')=='true') {
+        {% if site.analytics %{% include cookies/ga.js %}{% endif %}
         {% if site.fbappid %}{% include cookies/fbapp.js %}{% endif %}
         {% include cookies/modalmonitor.js %}
         {% if site.twitterapi %}{% include cookies/twitterapi.js %}{% endif %}
-  /*more coockies here*/  
-{% if site.google.tagmanager_id %}
-    {% include bloocks/themes/global/analytics/analytics.html %}
-{% endif %}    
+        
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
@@ -72,15 +69,3 @@
     });
 
 </script>
-
-
-{% else %}
-
-{% if site.quantcast.qcode %}
-    {% include bloocks/themes/global/analytics/quantcastag.html %}
-{% endif %}
-
-{% if site.google.tagmanager_id %}
-    {% include bloocks/themes/global/analytics/analytics.html %}
-{% endif %}
-{% endif %}

@@ -44,16 +44,20 @@ twitter:
   username: bloocks
   card: large
 
-facebook:
+# facebook:
  # app_id: 12345 #the app id from https://developers.facebook.com/
  # admins: 12345 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
  # publisher: 12345 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
  # pixel: 12345
 
 
- # END CONFIG for Jekyll SEO tag plugin 
+ #END CONFIG for Jekyll SEO tag plugin 
 
-# Analytics
+## Coockie consent and analytics
+
+internalconsent: true
+
+### Analytics
 #
 #google :
 #    tracking_id : 'G-QSWTLSSE28' #Id google analitics
@@ -68,7 +72,7 @@ facebook:
 #
 # Coockie consent by quantcast https://www.quantcast.com/products/choice-consent-management-platform/
 
-# quantcast:
+# quantcast: # quantcast seem not supported in amp version
 #   qcode: 'p-dvLkrYyUzKp8p'
 #   qucode: 'dvLkrYyUzKp8p'
 #   email: 'lantoniotrento@gmail.com'
