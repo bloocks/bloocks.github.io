@@ -88,10 +88,7 @@
         {% if site.modalmonitor %}{% include bloocks/themes/cookies/modalmonitor.js %}{% endif %}
         {% if site.twitterapi %}{% include bloocks/themes/cookies/twitterapi.js %}{% endif %}
   /*more coockies here*/  
-{% if site.google.tagmanager_id %}
-    
-    document.body.innerHTML = document.body.innerHTML + "{% include bloocks/themes/global/analytics/analytics.html %}";
-{% endif %}    
+  
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
@@ -102,15 +99,19 @@
     });
 
 </script>
-
+{% if site.google.tagmanager_id %}
+    
+{% include bloocks/themes/global/analytics/analytics.html %}
+{% endif %}  
 
 {% else %}
 
 {% if site.quantcast.qcode %}
     {% include bloocks/themes/global/analytics/quantcastag.html %}
-{% endif %}
-
-{% if site.google.tagmanager_id %}
+    {% if site.google.tagmanager_id %}
     {% include bloocks/themes/global/analytics/analytics.html %}
 {% endif %}
+{% endif %}
+
+
 {% endif %}
