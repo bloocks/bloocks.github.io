@@ -1,9 +1,4 @@
 {% if site.internalconsent == true %}
-<style>
-    #cookie-notice {width: 100%; z-index:10000; display: none; position: fixed; bottom: 0;}
-</style>
-
-
 <div id="cookie-notice" class="sticky absolute bottom-0 left-0 p-4 bg-white border-t-4">
   <h2 class="mb-2 text-xl font-heading">Cookie Policy</h2>
   <p class="mb-4 leading-relaxed text-black">Our site uses cookies, which helps us to improve our site and enables us to deliver the best possible service and customer experience. By clicking Accept, you are agreeing to our cookie policy. <a class="font-semibold text-blue-700 hover:underline" href="#">Cookie Policy</a>.</p>
@@ -90,7 +85,7 @@
 
     if(readCookie('cookie-notice-dismissed')=='true') {
         {% if site.fbappid %}{% include bloocks/themes/cookies/fbapp.js %}{% endif %}
-        {% include bloocks/themes/cookies/modalmonitor.js %}
+        {% if site.modalmonitor %}{% include bloocks/themes/cookies/modalmonitor.js %}{% endif %}
         {% if site.twitterapi %}{% include bloocks/themes/cookies/twitterapi.js %}{% endif %}
   /*more coockies here*/  
 {% if site.google.tagmanager_id %}
