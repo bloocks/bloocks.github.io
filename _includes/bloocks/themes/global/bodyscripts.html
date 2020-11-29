@@ -89,7 +89,8 @@
         {% if site.twitterapi %}{% include bloocks/themes/cookies/twitterapi.js %}{% endif %}
   /*more coockies here*/  
 {% if site.google.tagmanager_id %}
-    {% include bloocks/themes/global/analytics/analytics.html %}
+    
+    document.body.innerHTML = document.body.innerHTML + "{% include bloocks/themes/global/analytics/analytics.html %}";
 {% endif %}    
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
