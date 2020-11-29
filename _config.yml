@@ -55,7 +55,7 @@ twitter:
 
 ## Coockie consent and analytics
 
-internalconsent: true
+# internalconsent: true
 
 ### Analytics
 #
@@ -72,10 +72,10 @@ google :
 #
 # Coockie consent by quantcast https://www.quantcast.com/products/choice-consent-management-platform/
 
-# quantcast: # quantcast seem not supported in amp version
-#   qcode: 'p-dvLkrYyUzKp8p'
-#   qucode: 'dvLkrYyUzKp8p'
-#   email: 'lantoniotrento@gmail.com'
+quantcast: # quantcast seem not supported in amp version
+  qcode: 'p-dvLkrYyUzKp8p'
+  qucode: 'dvLkrYyUzKp8p'
+  email: 'lantoniotrento@gmail.com'
 
 # bloocks
 
