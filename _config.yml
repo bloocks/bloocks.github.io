@@ -136,7 +136,7 @@ picture:
   ignore_missing_images: true
   fast_build: true
   relative_url: false
-#  cdn_url: https://cdn.statically.io/img/bloocks.github.io/
+  cdn_url: https://cdn.statically.io/img/bloocks.github.io/
 
 # This command below can be uncomment when you have the image files uploaded 
 # to your online repository to be able to serve your images from statically CDN
