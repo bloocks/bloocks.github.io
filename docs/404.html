@@ -279,135 +279,152 @@
 <main class=" overflow-x-hidden antialiased"> 
   
   <header class="relative z-50 w-full h-24">
-  <div
-      class="container flex items-center justify-center h-full max-w-6xl px-8 mx-auto sm:justify-between xl:px-0">
-      <!-- We need to put the site.logo here, below -->
-      <a href="/" class="relative flex items-center inline-block h-5 h-full font-black leading-none">
-          <svg class="w-auto h-6 text-indigo-600 fill-current" viewBox="0 0 194 116"
-              xmlns="http://www.w3.org/2000/svg">
-              <g fill-rule="evenodd">
-                  <path
-                      d="M96.869 0L30 116h104l-9.88-17.134H59.64l47.109-81.736zM0 116h19.831L77 17.135 67.088 0z" />
-                  <path d="M87 68.732l9.926 17.143 29.893-51.59L174.15 116H194L126.817 0z" />
-              </g>
-          </svg>
-          
-      </a>
-      
-      <nav id="nav"
-          class="absolute top-0 left-0 z-50 flex flex-col items-center justify-between hidden w-full h-64 pt-5 mt-24 text-sm text-gray-800 bg-white border-t border-gray-200 md:w-auto md:flex-row md:h-24 lg:text-base md:bg-transparent md:mt-0 md:border-none md:py-0 md:flex md:relative">
-          
-          <a href="/" title="Go to Home"
-              class="ml-0 mr-0 font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">
+    <div x-data="{ mobileMenuOpen: false }" class="relative bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+          <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+            <div class="flex justify-start lg:w-0 lg:flex-1">
+              <a href="#">
+                <span class="sr-only"></span>
+                <img class="h-8 w-auto sm:h-10" src="/img/main-logo.png" alt="">
+              </a>
+            </div>
+            <div class="-mr-2 -my-2 md:hidden">
+              <button @click="mobileMenuOpen = true" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <span class="sr-only">Open menu</span>
+                <svg class="h-6 w-6" x-description="Heroicon name: menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+              </button>
+            </div>
+            
+            <nav class="hidden md:flex space-x-10">
+              
+              
+              <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900" title="Go to Home">
               
               Home
               
-          </a>
-            
-          
-          <a href="/themes" title="Go to Themes"
-              class="ml-0 mr-0 font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">
+              </a>
+              
+              
+              
+              <a href="/themes" class="text-base font-medium text-gray-500 hover:text-gray-900" title="Go to Themes">
               
               Themes
               
-          </a>
-            
-          
-          <a href="/roadmap" title="Go to Roadmap"
-              class="ml-0 mr-0 font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">
+              </a>
+              
+              
+              
+              <a href="/roadmap" class="text-base font-medium text-gray-500 hover:text-gray-900" title="Go to Roadmap">
               
               Roadmap
               
-          </a>
-            
-          
-          <a href="/landmark.html" title="Go to Landmark"
-              class="ml-0 mr-0 font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">
+              </a>
+              
+              
+              
+              <a href="/landmark.html" class="text-base font-medium text-gray-500 hover:text-gray-900" title="Go to Landmark">
               
               Landmark
               
-          </a>
-            
-          
-          <div class="flex flex-col block w-full font-medium border-t border-gray-200 md:hidden">
-            
-              <a href="ask/" class="w-full py-2 font-bold text-center text-pink-500">
-                 Ask
               </a>
+              
+              
+            </nav>
             
-            
-              <a href="bloocker/"
-                  class="relative inline-block w-full px-5 py-3 text-sm leading-none text-center text-white bg-indigo-700 fold-bold">
+            <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+                
+                <a href="ask/   " class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
+                  Ask
+                </a>
+                
+                
+                <a href="bloocker/" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
                   Yo! I&#39;m in!
-              </a>
-            
+                </a>
+                
+            </div>
           </div>
-      </nav>
+        </div>
       
-      <div
-          class="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-gray-200 md:relative md:w-auto md:bg-transparent md:border-none md:mt-0 md:flex-row md:p-0 md:items-end md:flex md:justify-between">
-          
-          <a href="ask/"
-              class="relative z-40 px-3 py-2 mr-0 text-sm font-bold text-pink-500 md:px-5 lg:text-white sm:mr-3 md:mt-0">
-              Ask
-          </a>
-          
-          
-          <a href="bloocker/"
-              class="relative z-40 inline-block w-auto h-full px-5 py-3 text-sm font-bold leading-none text-white transition-all transition duration-100 duration-300 bg-indigo-700 rounded shadow-md fold-bold lg:bg-white lg:text-indigo-700 sm:w-full lg:shadow-none hover:shadow-xl">
-              Yo! I&#39;m in!
-          </a>
-          
-          <svg class="absolute top-0 left-0 hidden w-screen max-w-3xl -mt-64 -ml-12 lg:block overflow-x-hidden antialiased"
-              viewBox="0 0 818 815" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <defs>
-                  <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="c">
-                      <stop stop-color="#E614F2" offset="0%" />
-                      <stop stop-color="#FC3832" offset="100%" />
-                  </linearGradient>
-                  <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="f">
-                      <stop stop-color="#657DE9" offset="0%" />
-                      <stop stop-color="#1C0FD7" offset="100%" />
-                  </linearGradient>
-                  <filter x="-4.7%" y="-3.3%" width="109.3%" height="109.3%" filterUnits="objectBoundingBox"
-                      id="a">
-                      <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1" />
-                      <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
-                      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" in="shadowBlurOuter1" />
-                  </filter>
-                  <filter x="-4.7%" y="-3.3%" width="109.3%" height="109.3%" filterUnits="objectBoundingBox"
-                      id="d">
-                      <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1" />
-                      <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
-                      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" in="shadowBlurOuter1" />
-                  </filter>
-                  <path
-                      d="M160.52 108.243h497.445c17.83 0 24.296 1.856 30.814 5.342 6.519 3.486 11.635 8.602 15.12 15.12 3.487 6.52 5.344 12.985 5.344 30.815v497.445c0 17.83-1.857 24.296-5.343 30.814-3.486 6.519-8.602 11.635-15.12 15.12-6.52 3.487-12.985 5.344-30.815 5.344H160.52c-17.83 0-24.296-1.857-30.814-5.343-6.519-3.486-11.635-8.602-15.12-15.12-3.487-6.52-5.343-12.985-5.343-30.815V159.52c0-17.83 1.856-24.296 5.342-30.814 3.486-6.519 8.602-11.635 15.12-15.12 6.52-3.487 12.985-5.343 30.815-5.343z"
-                      id="b" />
-                  <path
-                      d="M159.107 107.829H656.55c17.83 0 24.296 1.856 30.815 5.342 6.518 3.487 11.634 8.602 15.12 15.12 3.486 6.52 5.343 12.985 5.343 30.816V656.55c0 17.83-1.857 24.296-5.343 30.815-3.486 6.518-8.602 11.634-15.12 15.12-6.519 3.486-12.985 5.343-30.815 5.343H159.107c-17.83 0-24.297-1.857-30.815-5.343-6.519-3.486-11.634-8.602-15.12-15.12-3.487-6.519-5.343-12.985-5.343-30.815V159.107c0-17.83 1.856-24.297 5.342-30.815 3.487-6.519 8.602-11.634 15.12-15.12 6.52-3.487 12.985-5.343 30.816-5.343z"
-                      id="e" />
-              </defs>
-              <g fill="none" fill-rule="evenodd" opacity=".9">
-                  <g transform="rotate(65 416.452 409.167)">
-                      <use fill="#000" filter="url(#a)" xlink:href="#b" />
-                      <use fill="url(#c)" xlink:href="#b" />
-                  </g>
-                  <g transform="rotate(29 421.929 414.496)">
-                      <use fill="#000" filter="url(#d)" xlink:href="#e" />
-                      <use fill="url(#f)" xlink:href="#e" />
-                  </g>
-              </g>
-          </svg>
+        <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+          <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+            <div class="pt-5 pb-6 px-5">
+              <div class="flex items-center justify-between">
+                <div>
+                  <img class="h-8 w-auto" src="/img/main-logo.png" alt=" logo">
+                </div>
+                <div class="-mr-2">
+                  <button @click="mobileMenuOpen = false" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <span class="sr-only">Close menu</span>
+                    <svg class="h-6 w-6" x-description="Heroicon name: x" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="mt-6">
+                
+                <nav class="grid gap-y-8">
+                    
+                    <a href="/" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                        
+                    <span class="ml-3 text-base font-medium text-gray-900">
+                      Home
+                    </span>
+                      
+                    </a> 
+                    
+                    <a href="/themes" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                        
+                    <span class="ml-3 text-base font-medium text-gray-900">
+                      Themes
+                    </span>
+                      
+                    </a> 
+                    
+                    <a href="/roadmap" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                        
+                    <span class="ml-3 text-base font-medium text-gray-900">
+                      Roadmap
+                    </span>
+                      
+                    </a> 
+                    
+                    <a href="/landmark.html" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                        
+                    <span class="ml-3 text-base font-medium text-gray-900">
+                      Landmark
+                    </span>
+                      
+                    </a> 
+                    
+                </nav>
+                
+              </div>
+            </div>
+            <div class="py-6 px-5 space-y-6">
+              
+              <div>
+                
+                <a href="bloocker/" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
+                    Yo! I&#39;m in!
+                </a>
+                
+                
+                <p class="mt-6 text-center text-base font-medium text-gray-500">
+                  
+                  <a href="ask/" class="text-indigo-600 hover:text-indigo-500">
+                    Ask
+                  </a>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div id="nav-mobile-btn"
-          class="absolute top-0 right-0 z-50 block w-6 mt-8 mr-10 cursor-pointer select-none md:hidden sm:mt-10">
-          <span class="block w-full h-1 mt-2 duration-200 transform bg-gray-800 rounded-full sm:mt-1"></span>
-          <span class="block w-full h-1 mt-1 duration-200 transform bg-gray-800 rounded-full"></span>
-      </div>
-
-  </div>
 </header>
 <!-- End Header Section-->
 
