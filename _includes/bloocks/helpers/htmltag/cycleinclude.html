@@ -1,9 +1,0 @@
-{%- assign object      = include.object -%}
-{%- assign content      = include.content   -%}
-{%- assign index      = include.index     -%}
-
-{% capture mapper %}{{ index | prepend: content }}{% endcapture %}
-{% assign includefield = object | map: mapper %}
-{% for field in includefield %}
-{{ field }}
-{% endfor %}
