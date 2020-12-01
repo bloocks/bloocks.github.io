@@ -7,6 +7,7 @@
 /flare.html
 /
 /landmark.html
+/roadmap.html
 /sitemap.txt
 
 /2020/11/18/bloocks-is-out.html
