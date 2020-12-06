@@ -20,7 +20,7 @@
 <meta name="twitter:site" content="@bloocks" />
 <meta name="twitter:creator" content="@bloocks" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"/subscribe.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/img/main-logo.png"},"name":"Antonio Trento"},"author":{"@type":"Person","name":"Antonio Trento"},"description":"Build badass and fastest marketing websites with Bloocks, a static websites generator to build Ecommerce and websites on top of tecnical performaces.","headline":"Bloocks fastest websites generator ever!","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"/subscribe.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/img/main-logo.png"},"name":"Antonio Trento"},"author":{"@type":"Person","name":"Antonio Trento"},"headline":"Bloocks fastest websites generator ever!","description":"Build badass and fastest marketing websites with Bloocks, a static websites generator to build Ecommerce and websites on top of tecnical performaces.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -598,7 +598,7 @@
       </div>
       <div></div>
       <div id="sib-container" class="sib-container--large sib-container--vertical" style="text-align:center; background-color:rgba(255,255,255,1); max-width:540px; border-radius:3px; border-width:1px; border-color:#C0CCD9; border-style:solid;">
-        <form id="sib-form" method="POST" action="https://8f8fbd70.sibforms.com/serve/MUIEAAx5Dvfl46T9isVZNEBDh0ihFzSD31pSRMGx0VUD4lNLWw1rwhB4mEoLlug74Mg_17S0t239SgYTFqoCZ8nfd-oHCMfchyCVcF4_jdptAC9G6PmMr2FBDtdA9BononKK36XjKpdYVm6Ob2BhuWuiIIJojSR4wo-YcxPioXHFPqhrr_aosi4LLeqPfSPfDCkdDfx-yMuOYUUb"
+        <form id="sib-form" method="POST" action="https://8f8fbd70.sibforms.com/serve/MUIEACLLcR4KK7kuphEvtoaesvNaVgpjPGAn0NL6XDCMQt78DQQx95G2pw804R3ZaV0dtuNR6mUzaygneWsT0cU85QP8RKZ85SJpzUH-ErrZLq5iwC-4nnoWBNFedCpeLFm9HxCf1ROjhw10hqMgy1ezsTbRJb0FmFZ_pBuv2PFV5vOmkeIJ8JtDkbLsZMveaqssI56R9DrL75Pn"
           data-type="subscription">
           <div style="padding: 8px 0;">
             <div class="sib-form-block" style="font-size:32px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">
@@ -634,7 +634,21 @@
             </div>
           </div>
           <div style="padding: 8px 0;">
-            <div class="g-recaptcha" data-sitekey="6Lfy2fsZAAAAAIu1-jNN2XVrVat8viTNSEMaoDTg" data-callback="invisibleCaptchaCallback" data-size="invisible" onclick="executeCaptcha"></div>
+            <div class="sib-captcha sib-form-block">
+              <div class="form__entry entry_block">
+                <div class="form__label-row ">
+                  <script>
+                    function handleCaptchaResponse() {
+                      var event = new Event('captchaChange');
+                      document.getElementById('sib-captcha').dispatchEvent(event);
+                    }
+                  </script>
+                  <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha" data-sitekey="6Let6PsZAAAAAD9A3POmMay0h1khYmGQbPn9ha5g" data-callback="handleCaptchaResponse"></div>
+                </div>
+                <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+                </label>
+              </div>
+            </div>
           </div>
           <div style="padding: 8px 0;">
             <div class="sib-optin sib-form-block">
