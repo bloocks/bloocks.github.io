@@ -11,5 +11,6 @@
 /sitemap.txt
 /subscribe.html
 /terms-and-conditions.html
+/what-inside.html
 
 /2020/11/18/bloocks-is-out.html
