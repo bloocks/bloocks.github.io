@@ -2,11 +2,8 @@
 /404.html
 /CNAME
 /blog/
-/bloocks.html
 /feed.xml
-/flare.html
 /
-/landmark.html
 /roadmap.html
 /sitemap.txt
 /subscribe.html
