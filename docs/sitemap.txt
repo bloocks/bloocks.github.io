@@ -9,6 +9,7 @@
 /sitemap.txt
 /subscribe.html
 /terms-and-conditions.html
+/thank-you-formcake.html
 /what-inside.html
 
 /2020/11/18/bloocks-is-out.html
