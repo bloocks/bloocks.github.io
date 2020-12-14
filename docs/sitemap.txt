@@ -1,15 +1,15 @@
 
-/404.html
-/CNAME
-/blog/
-/contact.html
-/feed.xml
-/
-/roadmap.html
-/sitemap.txt
-/subscribe.html
-/terms-and-conditions.html
-/thank-you-formcake.html
-/what-inside.html
+https://bloocks.dev/404.html
+https://bloocks.dev/CNAME
+https://bloocks.dev/blog/
+https://bloocks.dev/contact.html
+https://bloocks.dev/feed.xml
+https://bloocks.dev/
+https://bloocks.dev/roadmap.html
+https://bloocks.dev/sitemap.txt
+https://bloocks.dev/subscribe.html
+https://bloocks.dev/terms-and-conditions.html
+https://bloocks.dev/thank-you-formcake.html
+https://bloocks.dev/what-inside.html
 
-/2020/11/18/bloocks-is-out.html
+https://bloocks.dev/2020/11/18/bloocks-is-out.html

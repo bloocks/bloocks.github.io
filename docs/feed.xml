@@ -3,10 +3,10 @@
   <channel>
     <title>Bloocks fastest websites generator ever!</title>
     <description>Build badass and fastest marketing websites with Bloocks, a static websites generator to build Ecommerce and websites on top of tecnical performaces.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Dec 2020 22:52:14 +0100</pubDate>
-    <lastBuildDate>Mon, 14 Dec 2020 22:52:14 +0100</lastBuildDate>
+    <link>https://bloocks.dev/</link>
+    <atom:link href="https://bloocks.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 14 Dec 2020 23:09:16 +0100</pubDate>
+    <lastBuildDate>Mon, 14 Dec 2020 23:09:16 +0100</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -65,8 +65,8 @@
 &lt;p&gt;See you soon from Antonio.&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Nov 2020 00:00:00 +0100</pubDate>
-        <link>/2020/11/18/bloocks-is-out.html</link>
-        <guid isPermaLink="true">/2020/11/18/bloocks-is-out.html</guid>
+        <link>https://bloocks.dev/2020/11/18/bloocks-is-out.html</link>
+        <guid isPermaLink="true">https://bloocks.dev/2020/11/18/bloocks-is-out.html</guid>
         
         <category>websites</category>
         
