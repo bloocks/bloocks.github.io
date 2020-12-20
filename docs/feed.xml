@@ -5,8 +5,8 @@
     <description>Build badass and fastest marketing websites with Bloocks, a static websites generator to build Ecommerce and websites on top of tecnical performaces.</description>
     <link>https://bloocks.dev/</link>
     <atom:link href="https://bloocks.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Dec 2020 19:28:34 +0100</pubDate>
-    <lastBuildDate>Sun, 20 Dec 2020 19:28:34 +0100</lastBuildDate>
+    <pubDate>Sun, 20 Dec 2020 19:38:55 +0100</pubDate>
+    <lastBuildDate>Sun, 20 Dec 2020 19:38:55 +0100</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -284,10 +284,10 @@ example.com (but not on Github, for example).&lt;/p&gt;
 &lt;p&gt;Here’s our logo (hover to see the title text):&lt;/p&gt;
 
 &lt;p&gt;Inline-style:
-&lt;img src=&quot;https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/img/bloocks-prelaunch.jpg&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Reference-style:
-&lt;img src=&quot;https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 2&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/img/default-card.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 2&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;highlighting&quot;&gt;Highlighting&lt;/h2&gt;
 
