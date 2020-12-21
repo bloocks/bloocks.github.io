@@ -5,15 +5,13 @@
     <description>Build badass and fastest marketing websites with Bloocks, a static websites generator to build Ecommerce and websites on top of tecnical performaces.</description>
     <link>https://bloocks.dev/</link>
     <atom:link href="https://bloocks.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Dec 2020 22:56:34 +0100</pubDate>
-    <lastBuildDate>Sun, 20 Dec 2020 22:56:34 +0100</lastBuildDate>
+    <pubDate>Mon, 21 Dec 2020 20:07:18 +0100</pubDate>
+    <lastBuildDate>Mon, 21 Dec 2020 20:07:18 +0100</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
         <title>Bloocks tests, post with Markdown</title>
-        <description>&lt;h1 id=&quot;style-guidelines-markdown&quot;&gt;Style Guidelines: Markdown&lt;/h1&gt;
-
-&lt;h2 id=&quot;h2-header&quot;&gt;H2 header&lt;/h2&gt;
+        <description>&lt;h2 id=&quot;h2-header&quot;&gt;H2 header&lt;/h2&gt;
 
 &lt;h3 id=&quot;h3-header&quot;&gt;H3 header&lt;/h3&gt;
 
@@ -206,14 +204,6 @@ Vana'diel Chocobo Society | Chocobo Raising | FFXI:TOAU
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;This is enforced locally through redcarpet2’s configuration:
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:space_after_headers&lt;/code&gt;.
-&lt;a name=&quot;1&quot;&gt;&lt;a&gt;&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
 
 &lt;h2 id=&quot;other-styles&quot;&gt;Other styles&lt;/h2&gt;
 
