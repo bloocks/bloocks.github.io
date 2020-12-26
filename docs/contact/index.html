@@ -1,5 +1,3 @@
-<!--  Bloocks Theme constructor  -->
-
 <!DOCTYPE html>
 <html class="no-js" lang="en-US">
   <head>
@@ -65,9 +63,7 @@
 
 <main> 
 
-  <!--  Bloocks Theme constructor  -->
-
-  
+    
   <header class="sticky top-0 relative z-50 w-full h-24">
     <div x-data="{ mobileMenuOpen: false }" class="relative bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6">
@@ -592,8 +588,7 @@ Have some question? Have some advice? Do you wanna say Hello? Fill the form belo
 
 <script>
   function contactForm() {
-	grecaptcha.ready(function() {
-        grecaptcha.execute('6Lfy2fsZAAAAAP3MWZ0WAFSchpCnPKS2Nrxdg4wS', {action: 'submit'}).then(function(token) {
+
 			return {
 				formData: {
 					name: '',
@@ -603,23 +598,26 @@ Have some question? Have some advice? Do you wanna say Hello? Fill the form belo
 				message: '',
 				
 				submitData() {
-					this.message = ''
+				grecaptcha.ready(function() {
+        			grecaptcha.execute('6Lfy2fsZAAAAAP3MWZ0WAFSchpCnPKS2Nrxdg4wS', {action: 'submit'}).then(function(token) {
+						this.message = ''
 
-					fetch('https://api.formcake.com/api/form/d3e56666-0d67-4303-90d1-54cd52e0b242/submission', {
-						method: 'POST',
-						headers: { 'Content-Type': 'application/json' },
-						body: JSON.stringify(this.formData)
-					})
-					.then(() => {
-						this.message = 'Form sucessfully submitted!'
-					})
-					.catch(() => {
-						this.message = 'Ooops! Something went wrong!'
-					})
+						fetch('https://api.formcake.com/api/form/d3e56666-0d67-4303-90d1-54cd52e0b242/submission', {
+							method: 'POST',
+							headers: { 'Content-Type': 'application/json' },
+							body: JSON.stringify(this.formData)
+						})
+						.then(() => {
+							this.message = 'Form sucessfully submitted!'
+						})
+						.catch(() => {
+							this.message = 'Ooops! Something went wrong!'
+						})
+					});
+    			});
 				}
 			}
-        });
-    });
+
 }
 </script>
   </div>
