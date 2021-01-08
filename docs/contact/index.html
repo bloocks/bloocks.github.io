@@ -21,7 +21,7 @@
 <meta name="twitter:site" content="@lantoniotrento" />
 <meta name="twitter:creator" content="@lantoniotrento" />
 <script type="application/ld+json">
-{"@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://bloocks.dev/img/main-logo.png"},"name":"Antonio Trento"},"headline":"Contact the Bloocks team","url":"https://bloocks.dev/contact/","image":"https://bloocks.dev/img/default-card.png","author":{"@type":"Person","name":"Antonio Trento"},"description":"Have question or advices to improve bloocks static website generator? Contact us.","@context":"https://schema.org"}</script>
+{"headline":"Contact the Bloocks team","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://bloocks.dev/img/main-logo.png"},"name":"Antonio Trento"},"@type":"WebPage","url":"https://bloocks.dev/contact/","image":"https://bloocks.dev/img/default-card.png","author":{"@type":"Person","name":"Antonio Trento"},"description":"Have question or advices to improve bloocks static website generator? Contact us.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -637,7 +637,7 @@ Have some question? Have some advice? Do you wanna say Hello? Fill the form belo
             }
             return
           }
-          document.body.innerHTML = text
+          window.location.replace("https://bloocks.dev/thank-you-formcake/");
         } catch (e) {
           console.error(e.message)
         }
