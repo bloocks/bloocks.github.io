@@ -21,7 +21,7 @@
 <meta name="twitter:site" content="@lantoniotrento" />
 <meta name="twitter:creator" content="@lantoniotrento" />
 <script type="application/ld+json">
-{"@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://bloocks.dev/img/main-logo.png"},"name":"Antonio Trento"},"headline":"Contact the Bloocks team","url":"https://bloocks.dev/contact/","image":"https://bloocks.dev/img/default-card.png","author":{"@type":"Person","name":"Antonio Trento"},"description":"Have question or advices to improve bloocks static website generator? Contact us.","@context":"https://schema.org"}</script>
+{"headline":"Contact the Bloocks team","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://bloocks.dev/img/main-logo.png"},"name":"Antonio Trento"},"@type":"WebPage","url":"https://bloocks.dev/contact/","image":"https://bloocks.dev/img/default-card.png","author":{"@type":"Person","name":"Antonio Trento"},"description":"Have question or advices to improve bloocks static website generator? Contact us.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -566,13 +566,13 @@ Have some question? Have some advice? Do you wanna say Hello? Fill the form belo
     <iframe style="filter: grayscale(1) contrast(1.2) opacity(0.4);" width="100%" height="100%" frameborder="0" title="map" allowfullscreen src="//umap.openstreetmap.fr/it/map/mappa-senza-nome_537693?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>  
   </div>
   <div class="container px-5 py-24 mx-auto flex">
-    <!-- from https://medium.com/codait/protecting-your-website-forms-with-serverless-captcha-27e3ed2794a0 -->
+    <!-- from https://github.com/andrewrmn/invisible-recaptcha-validator -->
 <form method="post" action="javascript:" onsubmit="onSubmit(this)" class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 rounded-lg p-8 bg-white">
     <h4 class="text-gray-900 text-lg mb-1 font-medium title-font">Contact Bloocks team</h4>
     <p class="leading-relaxed mb-5 text-gray-600">Write down your questions or helpfull information to improve this project.</p>
     <div class="relative mb-4">
       <label for="name" class="leading-7 text-sm text-gray-600">Your name</label>
-      <input required type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+      <input required type="text" id="username" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
     </div>
     <div class="relative mb-4">
 	  <label for="email" class="leading-7 text-sm text-gray-600">Your email</label>
@@ -611,7 +611,7 @@ Have some question? Have some advice? Do you wanna say Hello? Fill the form belo
   .then((data) => {
     console.log(data.success);
     if( data.success === true ){
-      const name = form["name"].value
+      const name = form["username"].value
       const email = form["email"].value
       const message = form["message"].value
       let body = JSON.stringify({
